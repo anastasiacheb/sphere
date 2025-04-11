@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+
+/* npx @tailwindcss/cli -i src/css/input.css -o src/css/output.css --watch */
+
+@theme {
+  /* --color-primary: #ff3e00;
+  --color-secondary: #ffd9ff;
+  --color-tertiary: #fb339a; */
+  --color-accent: #8b47f4;
+  --color-transp: rgba(255, 255, 255, 0.1);
+  --color-overlay: rgba(0, 0, 0, 0.6);
+  --color-dark: #0a0a13;
+  --color-dark-50: #78787a;
+  --color-extra: #f9bb1f;
+  --color-secondary: #f1f1f1;
+
+  /*--color-extra: #3a00ff; */
+  --font-cygre: 'Cygre', sans-serif;
+  --font-helvetica: 'Helvetica', sans-serif;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 640px;
+  --breakpoint-lg: 960px;
+  --breakpoint-xl: 1200px;
+}
+
+@layer base {
+  * {
+    @apply transition-colors duration-300 ease-linear;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .swiper-pagination-bullet {
+    @apply !h-0.5 !w-9 !rounded-full !bg-accent !opacity-20 transition-all duration-300 ease-linear;
+  }
+
+  .swiper-pagination-bullet-active {
+    @apply !w-23 !opacity-100;
+  }
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Cygre';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/../public/fonts/Cygre-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Cygre';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/../public/fonts/Cygre-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/../public/fonts/HelveticaNeueRoman.otf') format('opentype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/../public/fonts/HelveticaNeueMedium.otf') format('opentype');
+}
