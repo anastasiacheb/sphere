@@ -50,7 +50,7 @@
   font-family: 'Cygre';
   font-style: normal;
   font-weight: 600;
-  src: url('public/fonts/Cygre-SemiBold.ttf') format('truetype');
+  src: url('./public/fonts/Cygre-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
@@ -58,7 +58,7 @@
   font-family: 'Cygre';
   font-style: normal;
   font-weight: 900;
-  src: url('public/fonts/Cygre-Black.ttf') format('truetype');
+  src: url('./public/fonts/Cygre-Black.ttf') format('truetype');
 }
 
 @font-face {
@@ -66,7 +66,7 @@
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 400;
-  src: url('public/fonts/HelveticaNeueRoman.otf') format('opentype');
+  src: url('./public/fonts/HelveticaNeueRoman.otf') format('opentype');
 }
 
 @font-face {
@@ -74,5 +74,5 @@
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 500;
-  src: url('public/fonts/HelveticaNeueMedium.otf') format('opentype');
+  src: url('./public/fonts/HelveticaNeueMedium.otf') format('opentype');
 }
