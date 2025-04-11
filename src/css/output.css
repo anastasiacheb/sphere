@@ -564,20 +564,20 @@
     --tw-gradient-position: to right in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
-  .bg-\[url\(\/\.\.\/public\/images\/Group_526\.png\)\] {
-    background-image: url(/../public/images/Group_526.png);
+  .bg-\[url\(\/\.\.\/assets\/images\/Group_526\.png\)\] {
+    background-image: url(/../assets/images/Group_526.png);
   }
-  .bg-\[url\(\/\.\.\/public\/images\/Group_527\.png\)\] {
-    background-image: url(/../public/images/Group_527.png);
+  .bg-\[url\(\/\.\.\/assets\/images\/Group_527\.png\)\] {
+    background-image: url(/../assets/images/Group_527.png);
   }
-  .bg-\[url\(\/\.\.\/public\/images\/Mask_group0\.png\)\] {
-    background-image: url(/../public/images/Mask_group0.png);
+  .bg-\[url\(\/\.\.\/assets\/images\/Mask_group0\.png\)\] {
+    background-image: url(/../assets/images/Mask_group0.png);
   }
-  .bg-\[url\(\/\.\.\/public\/images\/Maskgroup22\.png\)\] {
-    background-image: url(/../public/images/Maskgroup22.png);
+  .bg-\[url\(\/\.\.\/assets\/images\/Maskgroup22\.png\)\] {
+    background-image: url(/../assets/images/Maskgroup22.png);
   }
-  .bg-\[url\(\/\.\.\/public\/images\/color-gr\.png\)\] {
-    background-image: url(/../public/images/color-gr.png);
+  .bg-\[url\(\/\.\.\/assets\/images\/color-gr\.png\)\] {
+    background-image: url(/../assets/images/color-gr.png);
   }
   .from-\[\#FBFBFB\] {
     --tw-gradient-from: #FBFBFB;
@@ -1111,9 +1111,9 @@
       border-radius: var(--radius-lg);
     }
   }
-  .sm\:bg-\[url\(\/\.\.\/public\/images\/color-gr2\.png\)\] {
+  .sm\:bg-\[url\(\/\.\.\/assets\/images\/color-gr2\.png\)\] {
     @media (width >= 480px) {
-      background-image: url(/../public/images/color-gr2.png);
+      background-image: url(/../assets/images/color-gr2.png);
     }
   }
   .sm\:p-4 {
@@ -1487,9 +1487,9 @@
       border-radius: var(--radius-4xl);
     }
   }
-  .md\:bg-\[url\(\/\.\.\/public\/images\/Mask_group3\.png\)\] {
+  .md\:bg-\[url\(\/\.\.\/assets\/images\/Mask_group3\.png\)\] {
     @media (width >= 640px) {
-      background-image: url(/../public/images/Mask_group3.png);
+      background-image: url(/../assets/images/Mask_group3.png);
     }
   }
   .md\:p-6 {
@@ -1986,14 +1986,14 @@
       border-bottom-right-radius: var(--radius-4xl);
     }
   }
-  .lg\:bg-\[url\(\/\.\.\/public\/images\/Mask_group4\.png\)\] {
+  .lg\:bg-\[url\(\/\.\.\/assets\/images\/Mask_group4\.png\)\] {
     @media (width >= 960px) {
-      background-image: url(/../public/images/Mask_group4.png);
+      background-image: url(/../assets/images/Mask_group4.png);
     }
   }
-  .lg\:bg-\[url\(\/\.\.\/public\/images\/color-gr3\.png\)\] {
+  .lg\:bg-\[url\(\/\.\.\/assets\/images\/color-gr3\.png\)\] {
     @media (width >= 960px) {
-      background-image: url(/../public/images/color-gr3.png);
+      background-image: url(/../assets/images/color-gr3.png);
     }
   }
   .lg\:p-0 {
@@ -2502,9 +2502,9 @@
       border-radius: 54px;
     }
   }
-  .xl\:bg-\[url\(\/\.\.\/public\/images\/Mask_group5\.png\)\] {
+  .xl\:bg-\[url\(\/\.\.\/assets\/images\/Mask_group5\.png\)\] {
     @media (width >= 1200px) {
-      background-image: url(/../public/images/Mask_group5.png);
+      background-image: url(/../assets/images/Mask_group5.png);
     }
   }
   .xl\:p-6 {
@@ -2722,10 +2722,10 @@
       line-height: 72px;
     }
   }
-  .xl\:lg\:bg-\[url\(\/\.\.\/public\/images\/color-gr4\.png\)\] {
+  .xl\:lg\:bg-\[url\(\/\.\.\/assets\/images\/color-gr4\.png\)\] {
     @media (width >= 1200px) {
       @media (width >= 960px) {
-        background-image: url(/../public/images/color-gr4.png);
+        background-image: url(/../assets/images/color-gr4.png);
       }
     }
   }
@@ -2770,28 +2770,28 @@
   font-family: 'Cygre';
   font-style: normal;
   font-weight: 600;
-  src: url('./public/fonts/Cygre-SemiBold.ttf') format('truetype');
+  src: url('/../assets/fonts/Cygre-SemiBold.ttf') format('truetype');
 }
 @font-face {
   font-display: swap;
   font-family: 'Cygre';
   font-style: normal;
   font-weight: 900;
-  src: url('./public/fonts/Cygre-Black.ttf') format('truetype');
+  src: url('/../assets/fonts/Cygre-Black.ttf') format('truetype');
 }
 @font-face {
   font-display: swap;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 400;
-  src: url('./public/fonts/HelveticaNeueRoman.otf') format('opentype');
+  src: url('/../assets/fonts/HelveticaNeueRoman.otf') format('opentype');
 }
 @font-face {
   font-display: swap;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 500;
-  src: url('./public/fonts/HelveticaNeueMedium.otf') format('opentype');
+  src: url('/../assets/fonts/HelveticaNeueMedium.otf') format('opentype');
 }
 @property --tw-translate-x {
   syntax: "*";
