@@ -332,18 +332,6 @@
     width: calc(var(--spacing) * 18);
     height: calc(var(--spacing) * 18);
   }
-  .\!h-0\.5 {
-    height: calc(var(--spacing) * 0.5) !important;
-  }
-  .\!h-1 {
-    height: calc(var(--spacing) * 1) !important;
-  }
-  .\!h-auto {
-    height: auto !important;
-  }
-  .\!h-fit {
-    height: fit-content !important;
-  }
   .h-7\.5 {
     height: calc(var(--spacing) * 7.5);
   }
@@ -368,9 +356,6 @@
   .h-dvh {
     height: 100dvh;
   }
-  .h-fit {
-    height: fit-content;
-  }
   .h-full {
     height: 100%;
   }
@@ -391,12 +376,6 @@
   }
   .w-\[calc\(\(100\%-600px\)\/2\)\] {
     width: calc((100% - 600px) / 2);
-  }
-  .w-\[calc\(\(100\%-600px-24px-24px\)\/2\)\] {
-    width: calc((100% - 600px - 24px - 24px) / 2);
-  }
-  .w-\[calc\(100\%-600px-24px-24px\)\] {
-    width: calc(100% - 600px - 24px - 24px);
   }
   .w-\[calc\(100vw-8px\)\] {
     width: calc(100vw - 8px);
@@ -567,15 +546,6 @@
   .bg-overlay {
     background-color: var(--color-overlay);
   }
-  .bg-pink-100 {
-    background-color: var(--color-pink-100);
-  }
-  .bg-pink-300 {
-    background-color: var(--color-pink-300);
-  }
-  .bg-pink-500 {
-    background-color: var(--color-pink-500);
-  }
   .bg-secondary {
     background-color: var(--color-secondary);
   }
@@ -625,15 +595,8 @@
     --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-via-stops);
   }
-  .via-90\% {
-    --tw-gradient-via-position: 90%;
-  }
   .via-95\% {
     --tw-gradient-via-position: 95%;
-  }
-  .to-\[\#FBFBFB\]\/80 {
-    --tw-gradient-to: color-mix(in oklab, #FBFBFB 80%, transparent);
-    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .to-transparent {
     --tw-gradient-to: transparent;
@@ -884,15 +847,6 @@
   }
   .opacity-7 {
     opacity: 7%;
-  }
-  .opacity-10 {
-    opacity: 10%;
-  }
-  .opacity-30 {
-    opacity: 30%;
-  }
-  .opacity-80 {
-    opacity: 80%;
   }
   .shadow-\[0px_8px_18px_-6px_rgba\(0\,0\,59\,0\.05\)\] {
     --tw-shadow: 0px 8px 18px -6px var(--tw-shadow-color, rgba(0,0,59,0.05));
@@ -1636,11 +1590,6 @@
       padding-bottom: calc(var(--spacing) * 8);
     }
   }
-  .md\:pb-9 {
-    @media (width >= 640px) {
-      padding-bottom: calc(var(--spacing) * 9);
-    }
-  }
   .md\:pb-10\.5 {
     @media (width >= 640px) {
       padding-bottom: calc(var(--spacing) * 10.5);
@@ -1854,11 +1803,6 @@
       height: calc(var(--spacing) * 135.5);
     }
   }
-  .lg\:\!w-150 {
-    @media (width >= 960px) {
-      width: calc(var(--spacing) * 150) !important;
-    }
-  }
   .lg\:w-47\.5 {
     @media (width >= 960px) {
       width: calc(var(--spacing) * 47.5);
@@ -1882,11 +1826,6 @@
   .lg\:w-\[48vw\] {
     @media (width >= 960px) {
       width: 48vw;
-    }
-  }
-  .lg\:\!max-w-150 {
-    @media (width >= 960px) {
-      max-width: calc(var(--spacing) * 150) !important;
     }
   }
   .lg\:max-w-55 {
@@ -2834,28 +2773,28 @@
   font-family: 'Cygre';
   font-style: normal;
   font-weight: 600;
-  src: url('/../public/fonts/Cygre-SemiBold.ttf') format('truetype');
+  src: url('../public/fonts/Cygre-SemiBold.ttf') format('truetype');
 }
 @font-face {
   font-display: swap;
   font-family: 'Cygre';
   font-style: normal;
   font-weight: 900;
-  src: url('/../public/fonts/Cygre-Black.ttf') format('truetype');
+  src: url('../public/fonts/Cygre-Black.ttf') format('truetype');
 }
 @font-face {
   font-display: swap;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 400;
-  src: url('/../public/fonts/HelveticaNeueRoman.otf') format('opentype');
+  src: url('../public/fonts/HelveticaNeueRoman.otf') format('opentype');
 }
 @font-face {
   font-display: swap;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 500;
-  src: url('/../public/fonts/HelveticaNeueMedium.otf') format('opentype');
+  src: url('../public/fonts/HelveticaNeueMedium.otf') format('opentype');
 }
 @property --tw-translate-x {
   syntax: "*";
