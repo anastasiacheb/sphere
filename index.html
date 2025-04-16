@@ -8,12 +8,12 @@
     <meta property="og:title" content="Sphere career" />
     <meta property="og:description" content="Сайт для развития карьеры и навыков" />
     <!-- <meta property="og:image" content="/assets/images/og-image.jpg" /> -->
-    <!-- 600 на 315 -->
     <meta property="og:url" content="https://yourdomain.com" />
     <title>Sphere career</title>
     <meta property="og:type" content="website" />
     <link href="src/css/output.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body class="font-helvetica bg-[#FBFBFB]">
     <main class="max-w-[1440px] mx-auto">
@@ -45,16 +45,28 @@
             <img src="assets/icons/Menu.svg" alt="меню" class="size-6" />
           </button>
           <div class="hidden lg:flex gap-2 bg-transp rounded-2xl p-1.5 text-white xl:gap-4">
-            <a data-target="about" href="#" class="px-5 py-2.5 text-[15px] font-medium hover:text-[#DCDCDC]"
+            <a
+              data-target="about"
+              href="#"
+              class="px-5 py-2.5 text-[15px] font-medium hover:text-[#DCDCDC] flex items-center pt-2.75 pb-2.25 leading-5.25 tracking-[-0.14px]"
               >Как это работает?</a
             >
-            <a data-target="case" href="#" class="px-5 py-2.5 text-[15px] font-medium hover:text-[#DCDCDC]"
+            <a
+              data-target="case"
+              href="#"
+              class="px-5 py-2.5 text-[15px] font-medium hover:text-[#DCDCDC] pt-2.75 pb-2.25"
               >Наши кейсы</a
             >
-            <a data-target="questions" href="#" class="px-5 py-2.5 text-[15px] font-medium hover:text-[#DCDCDC]"
+            <a
+              data-target="questions"
+              href="#"
+              class="px-5 py-2.5 text-[15px] font-medium hover:text-[#DCDCDC] pt-2.75 pb-2.25"
               >Вопрос-ответ</a
             >
-            <a data-target="contacts" href="#" class="px-5 py-2.5 text-[15px] font-medium hover:text-[#DCDCDC]"
+            <a
+              data-target="contacts"
+              href="#"
+              class="px-5 py-2.5 text-[15px] font-medium hover:text-[#DCDCDC] pt-2.75 pb-2.25"
               >Контакты</a
             >
             <button
@@ -69,23 +81,26 @@
           <img
             src="assets/images/hero_cat_illustration.svg"
             alt="иллюстрация"
+            data-aos="fade-right"
             class="w-[56vw] h-auto m-auto relative z-20 sm:w-[50vw] md:w-[34vw] md:ml-3 lg:w-[40vw] lg:ml-6 xl:ml-0 xl:w-[clamp(0px,33vw,480px)] grow-0" />
           <div
+            data-aos="fade-left"
             class="text-white px-2 text-center pt-4 sm:mx-8 sm:px-4 md:px-0 md:mx-0 md:text-left md:pr-11 lg:pr-0 xl:max-w-[649px]">
             <h1
-              class="font-cygre font-semibold text-[26px] leading-8 tracking-tight pb-3 sm:text-[30px] sm:leading-[38px] lg:text-5xl lg:leading-[54px] lg:pb-5 xl:text-[66px] xl:leading-[72px]">
+              class="font-cygre font-semibold text-[26px] tracking-[-1.36px] leading-8 pb-3 sm:text-[30px] sm:tracking-[-1.24px] sm:leading-[38px] lg:text-5xl lg:leading-[54px] lg:pb-5 xl:text-[66px] xl:leading-[72px] lg:tracking-[-1.42px] xl:tracking-[-2.64px]">
               Ваши персональные <br />карьерные агенты
             </h1>
-            <p class="text-sm font-normal pb-6 lg:text-base lg:pb-10.5">
+            <p class="text-sm font-normal pb-6 lg:text-base lg:pb-10.5 tracking-[-0.12px]">
               сообщество профессиональных IT-специалистов, заинтересованных в новых карьерных возможностях с различной
               степенью загрузки
             </p>
             <div class="flex flex-col gap-2 items-center sm:flex-row justify-center md:justify-start lg:gap-4">
               <button
-                class="text-dark text-[13px] font-medium px-4 py-3.5 rounded-xl bg-extra grow-0 w-fit lg:py-4 lg:px-5 lg:text-[15px] bg-gradient-to-b from-transparent to-transparent hover:from-white/30 hover:to-transparent hover:bg-gradient-to-b transition-none lg:rounded-2xl js-modal-btn">
+                class="text-dark text-[13px] font-medium px-4 py-3.5 rounded-xl bg-extra grow-0 w-fit lg:py-4 lg:px-5 lg:text-[15px] bg-gradient-to-b from-transparent to-transparent hover:from-white/30 hover:to-transparent hover:bg-gradient-to-b transition-none lg:rounded-2xl js-modal-btn tracking-[-0.14px]">
                 Хочу присоединиться
               </button>
-              <button class="px-4 py-2.5 text-[13px] font-medium lg:py-4 lg:px-5 lg:text-[15px] hover:text-[#DCDCDC]">
+              <button
+                class="px-4 py-2.5 text-[13px] font-medium lg:py-4 lg:px-5 lg:text-[15px] hover:text-[#DCDCDC] tracking-[-0.14px]">
                 Узнать больше
               </button>
             </div>
@@ -104,10 +119,10 @@
           </button>
         </div>
         <div class="flex flex-col gap-8 items-center text-base sm:text-lg sm:gap-6 pt-6 sm:pt-5 font-medium">
-          <a href="#" data-target="about">Как это работает?</a>
-          <a href="#" data-target="case">Наши кейсы</a>
-          <a href="#" data-target="questions">Вопрос-ответ</a>
-          <a href="#" data-target="contacts">Контакты</a>
+          <a href="#" data-target="about" class="tracking-[-0.64px] leading-5">Как это работает?</a>
+          <a href="#" data-target="case" class="tracking-[-0.64px] leading-5">Наши кейсы</a>
+          <a href="#" data-target="questions" class="tracking-[-0.64px] leading-5">Вопрос-ответ</a>
+          <a href="#" data-target="contacts" class="tracking-[-0.64px] leading-5">Контакты</a>
         </div>
         <div class="flex gap-3 items-center justify-center pt-10.5">
           <a href="#">
@@ -135,10 +150,11 @@
               </button>
             </div>
             <h2
-              class="font-cygre font-semibold text-2xl leading-7.5 text-center lg:text-[26px] lg:leading-8 lg:text-left pb-3">
+              class="font-cygre font-semibold text-2xl leading-7.5 text-center lg:text-[26px] lg:leading-8 lg:text-left pb-3 tracking-[-1.04px] lg:tracking-[-1.34px]">
               IT-карьера на новом уровне!
             </h2>
-            <p class="text-[15px] text-center lg:text-base pb-6 lg:pb-8 lg:text-left">
+            <p
+              class="text-[15px] text-center lg:text-base pb-6 lg:pb-8 lg:text-left leading-4.75 tracking-[-0.12px] lg:leading-5.25px">
               Ваш персональный карьерный агент поможет найти высокооплачиваемую работу без лишней рутины. Оставьте
               заявку – расскажем, как это работает.
             </p>
@@ -153,7 +169,7 @@
                   name="name"
                   placeholder="Ваше Имя"
                   required
-                  class="text-sm py-2.5 px-3 w-full border border-secondary rounded-xl md:text-[15px] lg:text-base lg:pl-4" />
+                  class="text-sm py-2.75 px-3 w-full border border-secondary rounded-xl md:text-[15px] lg:text-base lg:pl-4 placeholder:text-sm lg:h-14 flex items-center tracking-[-0.12px]" />
                 <input
                   type="tel"
                   name="tel"
@@ -161,11 +177,11 @@
                   placeholder="+7 ("
                   minlength="18"
                   required
-                  class="text-sm py-2.5 px-3 w-full border border-secondary rounded-xl md:text-[15px] lg:text-base lg:pl-4 js-phone" />
+                  class="text-sm py-2.75 px-3 w-full border border-secondary rounded-xl md:text-[15px] lg:text-base lg:pl-4 js-phone lg:h-14 flex items-center tracking-[-0.12px]" />
               </div>
               <button
                 type="submit"
-                class="text-dark text-[13px] font-medium px-4 py-3.5 rounded-xl bg-extra grow-0 lg:py-4 lg:px-5 lg:text-[15px] bg-gradient-to-b from-transparent to-transparent hover:from-white/30 hover:to-transparent hover:bg-gradient-to-b transition-none lg:rounded-2xl w-full">
+                class="text-dark text-[13px] font-medium px-4 py-3.5 rounded-xl bg-extra grow-0 lg:py-4 lg:px-5 lg:text-[15px] bg-gradient-to-b from-transparent to-transparent hover:from-white/30 hover:to-transparent hover:bg-gradient-to-b transition-none lg:rounded-2xl w-full tracking-[-0.14px] leading-4 lg:leading-5.25">
                 Отправить заявку
               </button>
             </form>
@@ -176,72 +192,91 @@
       <section
         class="pt-8 md:pt-9 flex flex-col gap-6 sm:gap-8 lg:pt-10.5 lg:flex-row lg:items-center lg:justify-between lg:px-10 xl:px-16">
         <h2
-          class="font-cygre font-semibold text-lg text-center px-2.5 sm:text-2xl sm:px-5 lg:text-[32px] lg:text-left lg:w-[40vw] xl:pl-10.5 xl:w-[clamp(0px,44vw,646px)] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px]">
+          data-aos="fade-right"
+          class="font-cygre font-semibold text-lg text-center px-2.5 sm:text-2xl sm:px-5 lg:text-[32px] lg:text-left lg:w-[40vw] xl:pl-10.5 xl:w-[clamp(0px,44vw,646px)] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px] tracking-[-1.04px] lg:tracking-[-1.24px]">
           Объединяем IT-специалистов с лучшими проектами, предлагая свободу выбора, поддержку и заботу
         </h2>
         <div
+          data-aos="fade-left"
           class="px-1.5 flex flex-col gap-3 sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 md:px-2 lg:px-0 lg:w-[48vw] xl:w-[clamp(0px,37vw,535px)]">
           <div class="bg-secondary rounded-[20px] p-3 pb-5 sm:p-4 sm-pb-6 lg:p-5 lg:pb-8 xl:p-6">
-            <h3 class="font-cygre font-semibold text-lg pb-2 lg:text-2xl lg:pb-4 xl:text-[26px] xl:text-base">
+            <h3
+              class="font-cygre font-semibold text-lg pb-2 lg:text-2xl lg:pb-4 xl:text-[26px] xl:text-base tracking-[-0.64px] lg:tracking-[-1.04px] xl:tracking-[-1.34px] leading-5 lg:leading-7.5 xl:leading-8">
               от 6 до 24 мес
             </h3>
-            <p class="text-[13px] text-dark-50 lg:text-[15px]">
+            <p class="text-[13px] text-dark-50 lg:text-[15px] tracking-[-0.12px] leading-4.5 lg:leading-4.75">
               Базовый горизонт <span class="text-accent">продолжительности проектов</span> (с возможной пролонгацией)
             </p>
           </div>
           <div class="bg-secondary rounded-[20px] p-3 pb-5 sm:p-4 sm-pb-6 lg:p-5 lg:pb-8 xl:p-6">
-            <h3 class="font-cygre font-semibold text-lg pb-2 lg:text-2xl lg:pb-4 xl:text-[26px] xl:text-base">
+            <h3
+              class="font-cygre font-semibold text-lg pb-2 lg:text-2xl lg:pb-4 xl:text-[26px] xl:text-base tracking-[-0.64px] lg:tracking-[-1.04px] xl:tracking-[-1.34px] leading-5 lg:leading-7.5 xl:leading-8">
               19 кейсов
             </h3>
-            <p class="text-[13px] text-dark-50 lg:text-[15px]">
+            <p class="text-[13px] text-dark-50 lg:text-[15px] tracking-[-0.12px] leading-4.5 lg:leading-4.75">
               Реализовано по системе агентского сотрудничества за последние <span class="text-accent">три месяца</span>
             </p>
           </div>
           <div
             class="bg-secondary rounded-[20px] p-3 pb-5 sm:p-4 sm-pb-6 lg:p-5 lg:pb-8 xl:p-6 lg:col-span-2 xl:h-[174px]">
-            <h3 class="font-cygre font-semibold text-lg pb-2 lg:text-2xl lg:pb-4 xl:text-[26px] xl:text-base xl:pb-5">
+            <h3
+              class="font-cygre font-semibold text-lg pb-2 lg:text-2xl lg:pb-4 xl:text-[26px] xl:text-base xl:pb-5 tracking-[-0.64px] lg:tracking-[-1.04px] xl:tracking-[-1.34px] leading-5 lg:leading-7.5 xl:leading-8">
               Мировая карьера
             </h3>
-            <p class="text-[13px] text-dark-50 lg:text-[15px]">
+            <p class="text-[13px] text-dark-50 lg:text-[15px] tracking-[-0.12px] leading-4.5 lg:leading-4.75">
               Устроили IT-специалистов в проекты из Европы, России, Казахстана, Таиланда, США
             </p>
           </div>
         </div>
       </section>
 
-      <section class="px-1.25 sm:px-1.5 md:px-2.5 lg:px-10 xl:px-16 pt-13.5 md:pt-16 lg:pt-18">
+      <section
+        class="px-1.25 sm:px-1.5 md:px-2.5 lg:px-10 xl:px-16 pt-13.5 md:pt-16 lg:pt-18 leading-5.25 tracking-[-0.14px] sm:leading-6 sm:tracking-[-0.64px]">
         <h2
+          data-aos="fade-down"
           class="font-medium text-[15px] text-dark-50 text-center pb-6 sm:max-w-[308px] sm:text-[20px] m-auto sm:pb-8 md:max-w-fit lg:hidden">
           Вот почему с <span class="text-accent">нами сотрудничают</span> it-специалисты
         </h2>
         <div class="columns-1 sm:columns-2 md:columns-3 gap-2 sm:gap-3 space-y-3 lg:gap-5 lg:space-y-5 xl:columns-5">
           <div
+            data-aos="fade-up"
             class="flex gap-3 py-3 px-4 rounded-3xl bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] bg-[url(../../assets/images/color-gr.webp)] bg-no-repeat bg-[length:100%_100%] bg-center sm:flex-col sm:items-center sm:gap-4 sm:px-4 sm:pb-6 sm:pt-5 sm:text-center sm:bg-[url(../../assets/images/color-gr2.webp)] md:px-3 lg:px-6 lg:py-8 lg:gap-4 lg:bg-[url(../../assets/images/color-gr3.webp)] xl:px-6 xl:py-10.2 lg:rounded-4xl xl:lg:bg-[url(../../assets/images/color-gr4.webp)] break-inside-avoid items-center">
             <img src="assets/images/image-9.svg" alt="иллюстрация" class="flex-none size-16 lg:size-24" />
             <div>
-              <h3 class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2">Персональный агент</h3>
-              <p class="text-[13px] text-dark-50 lg:text-[15px]">
+              <h3
+                class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2 leading-5 tracking-[-0.64px] lg:leading-6">
+                Персональный агент
+              </h3>
+              <p class="text-[13px] text-dark-50 lg:text-[15px] leading-4.25 tracking-[-0.12px] lg:leading-4.75">
                 Всегда на связи. Окажет помощь в любых рабочих вопросах
               </p>
             </div>
           </div>
           <div
+            data-aos="fade-up"
             class="flex gap-3 py-3 px-4 rounded-3xl bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] bg-[url(../../assets/images/color-gr.webp)] bg-no-repeat bg-[length:100%_100%] bg-center sm:flex-col sm:items-center sm:gap-4 sm:px-4 sm:pb-6 sm:pt-5 sm:text-center sm:bg-[url(../../assets/images/color-gr2.webp)] md:px-3 lg:px-6 lg:py-8 lg:gap-4 lg:bg-[url(../../assets/images/color-gr3.webp)] xl:px-6 xl:py-10.2 lg:rounded-4xl xl:lg:bg-[url(../../assets/images/color-gr4.webp)] break-inside-avoid items-center">
             <img src="assets/images/image.svg" alt="иллюстрация" class="flex-none size-16 lg:size-24" />
             <div>
-              <h3 class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2">
+              <h3
+                class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2 leading-5 tracking-[-0.64px] lg:leading-6">
                 Юридическая и бухгалтерская поддержка
               </h3>
-              <p class="text-[13px] text-dark-50 lg:text-[15px]">Все организационные вопросы мы берем на себя.</p>
+              <p class="text-[13px] text-dark-50 lg:text-[15px] leading-4.25 tracking-[-0.12px] lg:leading-4.75">
+                Все организационные вопросы мы берем на себя.
+              </p>
             </div>
           </div>
           <div class="break-inside-avoid xl:pt-28">
             <div
+              data-aos="fade-up"
               class="flex gap-3 py-3 px-4 rounded-3xl bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] bg-[url(../../assets/images/color-gr.webp)] bg-no-repeat bg-[length:100%_100%] bg-center sm:flex-col sm:items-center sm:gap-4 sm:px-4 sm:pb-6 sm:pt-5 sm:text-center sm:bg-[url(../../assets/images/color-gr2.webp)] md:px-3 lg:px-6 lg:py-8 lg:gap-4 lg:bg-[url(../../assets/images/color-gr3.webp)] xl:px-6 xl:py-10.2 lg:rounded-4xl xl:lg:bg-[url(../../assets/images/color-gr4.webp)] break-inside-avoid items-center">
               <img src="assets/images/image-1.svg" alt="иллюстрация" class="flex-none size-16 lg:size-24" />
               <div>
-                <h3 class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2">Необходимая техника</h3>
-                <p class="text-[13px] text-dark-50 lg:text-[15px]">
+                <h3
+                  class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2 leading-5 tracking-[-0.64px] lg:leading-6">
+                  Необходимая техника
+                </h3>
+                <p class="text-[13px] text-dark-50 lg:text-[15px] leading-4.25 tracking-[-0.12px] lg:leading-4.75">
                   Закупим или компенсируем оборудование, чтобы вы могли сосредоточиться на работе.
                 </p>
               </div>
@@ -249,11 +284,15 @@
           </div>
           <div class="md:pt-10.5 lg:pt-18 break-inside-avoid xl:pt-0 xl:pb-5">
             <div
+              data-aos="fade-up"
               class="flex gap-3 py-3 px-4 rounded-3xl bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] bg-[url(../../assets/images/color-gr.webp)] bg-no-repeat bg-[length:100%_100%] bg-center sm:flex-col sm:items-center sm:gap-4 sm:px-4 sm:pb-6 sm:pt-5 sm:text-center sm:bg-[url(../../assets/images/color-gr2.webp)] md:px-3 lg:px-6 lg:py-8 lg:gap-4 lg:bg-[url(../../assets/images/color-gr3.webp)] xl:px-6 xl:py-10.2 lg:rounded-4xl xl:lg:bg-[url(../../assets/images/color-gr4.webp)] break-inside-avoid items-center">
               <img src="assets/images/image-2.svg" alt="иллюстрация" class="flex-none size-16 lg:size-24" />
               <div>
-                <h3 class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2">Сопровождение карьеры</h3>
-                <p class="text-[13px] text-dark-50 lg:text-[15px]">
+                <h3
+                  class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2 leading-5 tracking-[-0.64px] lg:leading-6">
+                  Сопровождение карьеры
+                </h3>
+                <p class="text-[13px] text-dark-50 lg:text-[15px] leading-4.25 tracking-[-0.12px] lg:leading-4.75">
                   Поможем с резюме, подготовим к собеседованиям, оформим ваш LinkeIn
                 </p>
               </div>
@@ -261,45 +300,64 @@
           </div>
           <div class="break-inside-avoid xl:pt-8.5">
             <div
+              data-aos="fade-up"
               class="flex gap-3 py-3 px-4 rounded-3xl bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] bg-[url(../../assets/images/color-gr.webp)] bg-no-repeat bg-[length:100%_100%] bg-center sm:flex-col sm:items-center sm:gap-4 sm:px-4 sm:pb-6 sm:pt-5 sm:text-center sm:bg-[url(../../assets/images/color-gr2.webp)] md:px-3 lg:px-6 lg:py-8 lg:gap-4 lg:bg-[url(../../assets/images/color-gr3.webp)] xl:px-6 xl:py-10.2 lg:rounded-4xl xl:lg:bg-[url(../../assets/images/color-gr4.webp)] break-inside-avoid items-center">
               <img src="assets/images/image-3.svg" alt="иллюстрация" class="flex-none size-16 lg:size-24" />
               <div>
-                <h3 class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2">Интересные проекты</h3>
-                <p class="text-[13px] text-dark-50 lg:text-[15px]">
+                <h3
+                  class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2 leading-5 tracking-[-0.64px] lg:leading-6">
+                  Интересные проекты
+                </h3>
+                <p class="text-[13px] text-dark-50 lg:text-[15px] leading-4.25 tracking-[-0.12px] lg:leading-4.75">
                   Ваш бесплатный источник потока интересных проектов \ вакансий
                 </p>
               </div>
             </div>
           </div>
           <div
+            data-aos="fade-up"
             class="flex gap-3 py-3 px-4 rounded-3xl bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] bg-[url(../../assets/images/color-gr.webp)] bg-no-repeat bg-[length:100%_100%] bg-center sm:flex-col sm:items-center sm:gap-4 sm:px-4 sm:pb-6 sm:pt-5 sm:text-center sm:bg-[url(../../assets/images/color-gr2.webp)] md:px-3 lg:px-6 lg:py-8 lg:gap-4 lg:bg-[url(../../assets/images/color-gr3.webp)] xl:px-6 xl:py-10.2 lg:rounded-4xl xl:lg:bg-[url(../../assets/images/color-gr4.webp)] break-inside-avoid items-center">
             <img src="assets/images/image-4.svg" alt="иллюстрация" class="flex-none size-16 lg:size-24" />
             <div>
-              <h3 class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2">Приятные привилегии</h3>
-              <p class="text-[13px] text-dark-50 lg:text-[15px]">Компенсация коворкинга, изучения языков</p>
+              <h3
+                class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2 leading-5 tracking-[-0.64px] lg:leading-6">
+                Приятные привилегии
+              </h3>
+              <p class="text-[13px] text-dark-50 lg:text-[15px] leading-4.25 tracking-[-0.12px] lg:leading-4.75">
+                Компенсация коворкинга, изучения языков
+              </p>
             </div>
           </div>
           <div class="lg:pt-22 break-inside-avoid xl:pt-19">
-            <h2 class="text-base font-normal text-dark-50 text-left hidden lg:block max-w-47.5 m-auto pb-7 xl:hidden">
+            <h2
+              class="text-base font-normal text-dark-50 text-left hidden lg:block max-w-47.5 m-auto pb-7 xl:hidden leading-5.25 tracking-[-0.12px]">
               Вот почему с <span class="text-accent">нами сотрудничают</span> <br />it-специалисты
             </h2>
             <div
+              data-aos="fade-up"
               class="flex gap-3 py-3 px-4 rounded-3xl bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] bg-[url(../../assets/images/color-gr.webp)] bg-no-repeat bg-[length:100%_100%] bg-center sm:flex-col sm:items-center sm:gap-4 sm:px-4 sm:pb-6 sm:pt-5 sm:text-center sm:bg-[url(../../assets/images/color-gr2.webp)] md:px-3 lg:px-6 lg:py-8 lg:gap-4 lg:bg-[url(../../assets/images/color-gr3.webp)] xl:px-6 xl:py-10.2 lg:rounded-4xl xl:lg:bg-[url(../../assets/images/color-gr4.webp)] break-inside-avoid items-center">
               <img src="assets/images/image-5.svg" alt="иллюстрация" class="flex-none size-16 lg:size-24" />
               <div>
-                <h3 class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2">Дополнительный доход</h3>
-                <p class="text-[13px] text-dark-50 lg:text-[15px]">
+                <h3
+                  class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2 leading-5 tracking-[-0.64px] lg:leading-6">
+                  Дополнительный доход
+                </h3>
+                <p class="text-[13px] text-dark-50 lg:text-[15px] leading-4.25 tracking-[-0.12px] lg:leading-4.75">
                   Если остается много свободного времени, найдем чем вас занять
                 </p>
               </div>
             </div>
           </div>
           <div
+            data-aos="fade-up"
             class="flex gap-3 py-3 px-4 rounded-3xl bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] bg-[url(../../assets/images/color-gr.webp)] bg-no-repeat bg-[length:100%_100%] bg-center sm:flex-col sm:items-center sm:gap-4 sm:px-4 sm:pb-6 sm:pt-5 sm:text-center sm:bg-[url(../../assets/images/color-gr2.webp)] md:px-3 lg:px-6 lg:py-8 lg:gap-4 lg:bg-[url(../../assets/images/color-gr3.webp)] xl:px-6 xl:py-10.2 lg:rounded-4xl xl:lg:bg-[url(../../assets/images/color-gr4.webp)] break-inside-avoid items-center">
             <img src="assets/images/image-6.svg" alt="иллюстрация" class="flex-none size-16 lg:size-24" />
             <div>
-              <h3 class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2">Удобные выплаты</h3>
-              <p class="text-[13px] text-dark-50 lg:text-[15px]">
+              <h3
+                class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2 leading-5 tracking-[-0.64px] lg:leading-6">
+                Удобные выплаты
+              </h3>
+              <p class="text-[13px] text-dark-50 lg:text-[15px] leading-4.25 tracking-[-0.12px] lg:leading-4.75">
                 Получайте заработок в любой валюте, в любом регионе.
               </p>
             </div>
@@ -313,11 +371,15 @@
               Вот почему с <span class="text-accent">нами сотрудничают</span> <br />it-специалисты
             </h2>
             <div
+              data-aos="fade-up"
               class="flex gap-3 py-3 px-4 rounded-3xl bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] bg-[url(../../assets/images/color-gr.webp)] bg-no-repeat bg-[length:100%_100%] bg-center sm:flex-col sm:items-center sm:gap-4 sm:px-4 sm:pb-6 sm:pt-5 sm:text-center sm:bg-[url(../../assets/images/color-gr2.webp)] md:px-3 lg:px-6 lg:py-8 lg:gap-4 lg:bg-[url(../../assets/images/color-gr3.webp)] xl:px-6 xl:py-10.2 lg:rounded-4xl xl:lg:bg-[url(../../assets/images/color-gr4.webp)] break-inside-avoid items-center">
               <img src="assets/images/image-7.svg" alt="иллюстрация" class="flex-none size-16 lg:size-24" />
               <div>
-                <h3 class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2">Оффлайн-события</h3>
-                <p class="text-[13px] text-dark-50 lg:text-[15px]">
+                <h3
+                  class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2 leading-5 tracking-[-0.64px] lg:leading-6">
+                  Оффлайн-события
+                </h3>
+                <p class="text-[13px] text-dark-50 lg:text-[15px] leading-4.25 tracking-[-0.12px] lg:leading-4.75">
                   Создаем комфортное сообщество на встречах и мероприятиях
                 </p>
               </div>
@@ -330,10 +392,12 @@
         id="about"
         class="px-2.5 pt-13.5 sm:px-1.5 md:pt-16 lg:px-10 lg:pt-18 xl:px-16 flex flex-col gap-3 sm:grid sm:grid-cols-2 lg:gap-5 lg:grid-cols-[15%_32%_15%_32%] xl:grid-cols-[15.2%_24%_15.2%_24%_15.2%]">
         <h2
-          class="col-span-1 font-cygre font-semibold text-lg text-center leading-[22px] pb-3 sm:text-2xl sm:leading-[30px] sm:pb-5 sm:col-span-2 lg:col-span-2 lg:text-left lg:text-[32px] lg:leading-[42px] lg:my-auto xl:col-span-3 xl:max-w-150 xl:text-[42px] xl:leading-[50px]">
+          data-aos="fade-right"
+          class="col-span-1 font-cygre font-semibold text-lg text-center leading-[22px] pb-3 sm:text-2xl sm:leading-[30px] sm:pb-5 sm:col-span-2 lg:col-span-2 lg:text-left lg:text-[32px] lg:leading-[42px] lg:my-auto xl:col-span-3 xl:max-w-150 xl:text-[42px] xl:leading-[50px] tracking-[-1.04px] lg:tracking-[-1.24px]">
           Работаем по принципу: минимум формальностей — максимум возможностей
         </h2>
         <div
+          data-aos="fade-up"
           class="col-span-1 bg-secondary p-3 pb-5 rounded-[20px] relative overflow-clip sm:px-4 sm:py-5 sm:rounded-3xl md:pt-4 lg:p-6 lg:rounded-4xl sm:h-67 md:h-48 lg:h-57.5 lg:col-span-2">
           <p
             class="font-cygre font-black text-[#DCDCDC] text-[190px] leading-[90px] absolute -bottom-9 right-2 h-33.25 overflow-clip">
@@ -341,17 +405,19 @@
           </p>
           <div class="flex gap-3 items-center sm:flex-col sm:items-start md:flex-row md:items-center md:gap-4 lg:gap-5">
             <img src="assets/images/1image.svg" alt="иллюстрация" class="size-16 lg:size-24" />
-            <h3 class="font-cygre font-semibold text-lg leading-[20px] lg:text-2xl xl:text-[26px] relative z-10">
+            <h3
+              class="font-cygre font-semibold text-lg leading-[20px] lg:text-2xl xl:text-[26px] relative z-10 tracking-[-0.64px] lg:tracking-[-1.04px] xl:tracking-[-1.34px]">
               Свяжитесь с нами как и когда вам удобно
             </h3>
           </div>
           <p
-            class="text-[13px] text-dark-50 font-normal pt-2 relative z-10 sm:pt-3 md:pt-2 lg:text-base lg:pt-5 lg:max-w-100">
+            class="text-[13px] text-dark-50 font-normal pt-2 relative z-10 sm:pt-3 md:pt-2 lg:text-base lg:pt-5 lg:max-w-100 leading-4.5 tracking-[-0.12px] lg:leading-5.25">
             Заполните краткую форму на этом сайте или просто напишите нам в Telegram, и мы согласуем время знакомства
             с вашим будущим агентом.
           </p>
         </div>
         <div
+          data-aos="fade-up"
           class="bg-secondary p-3 pb-5 rounded-[20px] relative overflow-clip sm:px-4 sm:py-5 sm:rounded-3xl md:pt-4 lg:p-6 lg:rounded-4xl sm:h-67 md:h-48 lg:h-57.5 lg:col-span-2">
           <p
             class="font-cygre font-black text-[#DCDCDC] text-[190px] leading-[90px] absolute -bottom-9 right-2 h-33.25 overflow-clip">
@@ -359,17 +425,19 @@
           </p>
           <div class="flex gap-3 items-center sm:flex-col sm:items-start md:flex-row md:items-center md:gap-4 lg:gap-5">
             <img src="assets/images/1image-2.svg" alt="иллюстрация" class="size-16 lg:size-24" />
-            <h3 class="font-cygre font-semibold text-lg leading-[20px] lg:text-2xl xl:text-[26px] relative z-10">
+            <h3
+              class="font-cygre font-semibold text-lg leading-[20px] lg:text-2xl xl:text-[26px] relative z-10 tracking-[-0.64px] lg:tracking-[-1.04px] xl:tracking-[-1.34px]">
               Расскажите нам о своих пожеланиях
             </h3>
           </div>
           <p
-            class="text-[13px] text-dark-50 font-normal pt-2 relative z-10 sm:pt-3 md:pt-2 lg:text-base lg:pt-5 lg:max-w-100">
+            class="text-[13px] text-dark-50 font-normal pt-2 relative z-10 sm:pt-3 md:pt-2 lg:text-base lg:pt-5 lg:max-w-100 leading-4.5 tracking-[-0.12px] lg:leading-5.25">
             Познакомьтесь со своим агентом на первичной встрече, расскажите о ваших целях и проектах, в которых вам было
             бы интересно работать.
           </p>
         </div>
         <div
+          data-aos="fade-up"
           class="bg-secondary p-3 pb-5 rounded-[20px] relative overflow-clip sm:px-4 sm:py-5 sm:rounded-3xl md:pt-4 lg:p-6 lg:rounded-4xl sm:h-67 md:h-48 lg:h-57.5 lg:col-span-2">
           <p
             class="font-cygre font-black text-[#DCDCDC] text-[190px] leading-[90px] absolute -bottom-9 right-2 h-33.25 overflow-clip">
@@ -377,16 +445,18 @@
           </p>
           <div class="flex gap-3 items-center sm:flex-col sm:items-start md:flex-row md:items-center md:gap-4 lg:gap-5">
             <img src="assets/images/1image-3.svg" alt="иллюстрация" class="size-16 lg:size-24" />
-            <h3 class="font-cygre font-semibold text-lg leading-[20px] lg:text-2xl xl:text-[26px] relative z-10">
+            <h3
+              class="font-cygre font-semibold text-lg leading-[20px] lg:text-2xl xl:text-[26px] relative z-10 tracking-[-0.64px] lg:tracking-[-1.04px] xl:tracking-[-1.34px]">
               Пройдите интервью с экспертом
             </h3>
           </div>
           <p
-            class="text-[13px] text-dark-50 font-normal pt-2 relative z-10 sm:pt-3 md:pt-2 lg:text-base lg:pt-5 lg:max-w-100">
+            class="text-[13px] text-dark-50 font-normal pt-2 relative z-10 sm:pt-3 md:pt-2 lg:text-base lg:pt-5 lg:max-w-100 leading-4.5 tracking-[-0.12px] lg:leading-5.25">
             Краткое техническое интервью по вашей специализации, позволит нам точнее подобрать проекты для вас.
           </p>
         </div>
         <div
+          data-aos="fade-up"
           class="bg-secondary p-3 pb-5 rounded-[20px] relative overflow-clip sm:px-4 sm:py-5 sm:rounded-3xl md:pt-4 lg:p-6 lg:rounded-4xl sm:h-67 md:h-48 lg:h-57.5 lg:col-span-2 xl:col-start-2">
           <p
             class="font-cygre font-black text-[#DCDCDC] text-[190px] leading-[90px] absolute -bottom-9 right-2 h-33.25 overflow-clip">
@@ -394,16 +464,18 @@
           </p>
           <div class="flex gap-3 items-center sm:flex-col sm:items-start md:flex-row md:items-center md:gap-4 lg:gap-5">
             <img src="assets/images/1image-4.svg" alt="иллюстрация" class="size-16 lg:size-24" />
-            <h3 class="font-cygre font-semibold text-lg leading-[20px] lg:text-2xl xl:text-[26px] relative z-10">
+            <h3
+              class="font-cygre font-semibold text-lg leading-[20px] lg:text-2xl xl:text-[26px] relative z-10 tracking-[-0.64px] lg:tracking-[-1.04px] xl:tracking-[-1.34px]">
               Выбирайте проект интересный вам
             </h3>
           </div>
           <p
-            class="text-[13px] text-dark-50 font-normal pt-2 relative z-10 sm:pt-3 md:pt-2 lg:text-base lg:pt-5 lg:max-w-100">
+            class="text-[13px] text-dark-50 font-normal pt-2 relative z-10 sm:pt-3 md:pt-2 lg:text-base lg:pt-5 lg:max-w-100 leading-4.5 tracking-[-0.12px] lg:leading-5.25">
             Тут ваш агент будет предлагать проекты, которые могут быть вам интересны.
           </p>
         </div>
         <div
+          data-aos="fade-up"
           class="bg-secondary p-3 pb-5 rounded-[20px] relative overflow-clip sm:px-4 sm:py-5 sm:rounded-3xl md:pt-4 lg:p-6 lg:rounded-4xl sm:h-67 md:h-48 lg:h-57.5 lg:col-span-2">
           <p
             class="font-cygre font-black text-[#DCDCDC] text-[190px] leading-[90px] absolute -bottom-9 right-2 h-33.25 overflow-clip">
@@ -411,16 +483,18 @@
           </p>
           <div class="flex gap-3 items-center sm:flex-col sm:items-start md:flex-row md:items-center md:gap-4 lg:gap-5">
             <img src="assets/images/1image-5.svg" alt="иллюстрация" class="size-16 lg:size-24" />
-            <h3 class="font-cygre font-semibold text-lg leading-[20px] lg:text-2xl xl:text-[26px] relative z-10">
+            <h3
+              class="font-cygre font-semibold text-lg leading-[20px] lg:text-2xl xl:text-[26px] relative z-10 tracking-[-0.64px] lg:tracking-[-1.04px] xl:tracking-[-1.34px]">
               Познакомьтесь с новым работодателем
             </h3>
           </div>
           <p
-            class="text-[13px] text-dark-50 font-normal pt-2 relative z-10 sm:pt-3 md:pt-2 lg:text-base lg:pt-5 lg:max-w-100">
+            class="text-[13px] text-dark-50 font-normal pt-2 relative z-10 sm:pt-3 md:pt-2 lg:text-base lg:pt-5 lg:max-w-100 leading-4.5 tracking-[-0.12px] lg:leading-5.25">
             Ознакомьтесь более детально с проектом, пройдите процедуру интервью на стороне работодателя
           </p>
         </div>
         <div
+          data-aos="fade-up"
           class="bg-secondary p-3 pb-5 rounded-[20px] relative overflow-clip sm:px-4 sm:py-5 sm:rounded-3xl md:pt-4 lg:p-6 lg:rounded-4xl sm:h-67 md:h-48 lg:h-57.5 lg:col-start-2 lg:col-span-2 xl:col-start-3">
           <p
             class="font-cygre font-black text-[#DCDCDC] text-[190px] leading-[100px] absolute -bottom-9 right-2 h-33.5 overflow-clip">
@@ -428,23 +502,25 @@
           </p>
           <div class="flex gap-3 items-center sm:flex-col sm:items-start md:flex-row md:items-center md:gap-4 lg:gap-5">
             <img src="assets/images/1image-1.svg" alt="иллюстрация" class="size-16 lg:size-24" />
-            <h3 class="font-cygre font-semibold text-lg leading-[20px] lg:text-2xl xl:text-[26px] relative z-10">
+            <h3
+              class="font-cygre font-semibold text-lg leading-[20px] lg:text-2xl xl:text-[26px] relative z-10 tracking-[-0.64px] lg:tracking-[-1.04px] xl:tracking-[-1.34px]">
               Приступайте к работе над проектом
             </h3>
           </div>
           <p
-            class="text-[13px] text-dark-50 font-normal pt-2 relative z-10 sm:pt-3 md:pt-2 lg:text-base lg:pt-5 lg:max-w-100">
+            class="text-[13px] text-dark-50 font-normal pt-2 relative z-10 sm:pt-3 md:pt-2 lg:text-base lg:pt-5 lg:max-w-100 leading-4.5 tracking-[-0.12px] lg:leading-5.25">
             Вот вы и работаете над новым проектом
           </p>
         </div>
         <p
-          class="text-[15px] font-normal text-dark-50 pt-3 text-center col-span-2 sm:pt-2 sm:max-w-77 m-auto lg:col-span-1 lg:text-base lg:w-47.5 lg:text-left lg:p-0 self-end justify-self-end lg:m-0 lg:mr-7 lg:mb-7 xl:col-start-2 xl:row-start-4 xl:justify-self-start">
+          class="text-[15px] font-normal text-dark-50 pt-3 text-center col-span-2 sm:pt-2 sm:max-w-77 m-auto lg:col-span-1 lg:text-base lg:w-47.5 lg:text-left lg:p-0 self-end justify-self-end lg:m-0 lg:mr-7 lg:mb-7 xl:col-start-2 xl:row-start-4 xl:justify-self-start leading-5.25 tracking-[-0.14px] lg:tracking-[-0.12px]">
           Регистрация в рееестре Минцифры № такой-то от тогда-то
         </p>
       </section>
 
       <section class="lg:px-10 xl:px-51 pt-13.5 md:pt-16 lg:pt-18 xl:pt-24">
         <div
+          data-aos="fade-up"
           class="bg-accent rounded-[20px] mx-2.5 aspect-[300/160] sm:mx-1.5 sm:aspect-[468/242] md:mx-16 md:aspect-[514/240] lg:mx-20 lg:aspect-[780/348] flex justify-center items-center relative overflow-clip xl:min-w-185 xl:mx-auto sm:rounded-3xl lg:rounded-[54px]">
           <img
             src="assets/images/rocket_illustration.svg"
@@ -454,50 +530,60 @@
           <img src="assets/images/bg.webp" alt="декор" class="absolute w-full h-full top-0 z-0 hidden sm:block" />
         </div>
         <h2
-          class="font-cygre font-semibold text-lg text-center pt-3 sm:text-2xl sm:pt-5 md:pt-8 lg:pt-10.5 lg:text-[32px] xl:pt-16 xl:text-[42px] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px]">
+          class="font-cygre font-semibold text-lg text-center pt-3 sm:text-2xl sm:pt-5 md:pt-8 lg:pt-10.5 lg:text-[32px] xl:pt-16 xl:text-[42px] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px] tracking-[-1.04px] lg:tracking-[-1.24px]">
           Мы понимаем ваши сложности
         </h2>
         <div class="flex justify-center items-center overflow-hidden">
           <div
             class="flex flex-wrap justify-center items-center gap-1 lg:gap-2 mt-6 lg:mt-9 xl:mt-10.5 min-w-114 sm:w-full">
             <p
-              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl">
+              data-aos="fade-up"
+              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl tracking-[-0.14px] lg:tracking-[-0.64px] xl:tracking-[-1.34px]">
               Профессиональный застой
             </p>
             <p
-              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl">
+              data-aos="fade-up"
+              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl tracking-[-0.14px] lg:tracking-[-0.64px] xl:tracking-[-1.34px]">
               Токсичная среда
             </p>
             <p
-              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl">
+              data-aos="fade-up"
+              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl tracking-[-0.14px] lg:tracking-[-0.64px] xl:tracking-[-1.34px]">
               Нужно увеличить доход
             </p>
             <p
-              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl">
+              data-aos="fade-up"
+              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl tracking-[-0.14px] lg:tracking-[-0.64px] xl:tracking-[-1.34px]">
               Нужно еще увеличить доход
             </p>
             <p
-              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl">
+              data-aos="fade-up"
+              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl tracking-[-0.14px] lg:tracking-[-0.64px] xl:tracking-[-1.34px]">
               Заканчивается проект
             </p>
             <p
-              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl">
+              data-aos="fade-up"
+              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl tracking-[-0.14px] lg:tracking-[-0.64px] xl:tracking-[-1.34px]">
               Стресс и непостоянство
             </p>
             <p
-              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl">
+              data-aos="fade-up"
+              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl tracking-[-0.14px] lg:tracking-[-0.64px] xl:tracking-[-1.34px]">
               Риски активного поиска
             </p>
             <p
-              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl">
+              data-aos="fade-up"
+              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl tracking-[-0.14px] lg:tracking-[-0.64px] xl:tracking-[-1.34px]">
               Выдохшийся проект
             </p>
             <p
-              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl">
+              data-aos="fade-up"
+              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl tracking-[-0.14px] lg:tracking-[-0.64px] xl:tracking-[-1.34px]">
               Нет карьерного роста
             </p>
             <p
-              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl">
+              data-aos="fade-up"
+              class="font-medium text-dark-50 bg-secondary text-[13px] px-3 py-2 rounded-xl w-fit h-9.25 flex items-center justify-center sm:h-11.25 sm:text-sm sm:rounded-2xl md:px-4 md:text-[15px] lg:text-xl lg:rounded-3xl lg:h-16 lg:px-6 xl:text-[26px] xl:h-20 xl:rounded-4xl tracking-[-0.14px] lg:tracking-[-0.64px] xl:tracking-[-1.34px]">
               Хочу работать с видом на море
             </p>
           </div>
@@ -506,24 +592,28 @@
 
       <section class="pt-13.5 md:pt-16 lg:pt-18 xl:pt-24 px-2.5 sm:px-1.5 lg:px-2.5 xl:px-5">
         <div
-          class="flex flex-col gap-2.5 pb-6 sm:gap-3 lg:flex-row lg:justify-between lg:items-center lg:pb-10.5 lg:px-7.5 xl:items-start xl:pl-10.5 xl:pr-55 text-center lg:text-left xl:pb-13.5 sticky top-13.5 md:top-16 lg:top-18 xl:top-24">
+          class="flex flex-col gap-2.5 pb-6 sm:gap-3 lg:flex-row lg:justify-between lg:items-center lg:pb-10.5 lg:px-7.5 xl:items-start xl:pl-10.5 text-center lg:text-left xl:pb-13.5">
           <h2
-            class="font-cygre font-semibold text-lg sm:text-2xl lg:text-[32px] xl:text-[42px] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px]">
+            data-aos="fade-right"
+            class="font-cygre font-semibold text-lg sm:text-2xl lg:text-[32px] xl:text-[42px] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px] tracking-[-1.04px] lg:tracking-[-1.24px]">
             Ваши карьерные вызовы — <br class="md:hidden lg:block" />наш приоритет
           </h2>
-          <p class="font-medium text-dark-50 text-[15px] max-w-80 m-auto md:max-w-none lg:text-base lg:max-w-55 lg:m-0">
-            Вот <span class="text-accent">4 причины</span>, почему Career Sphere станет вашей точкой опоры
+          <p
+            data-aos="fade-left"
+            class="font-medium text-dark-50 text-[15px] max-w-80 m-auto md:max-w-none lg:text-base lg:m-0 leading-5.25 tracking-[-0.14px] lg:tracking-[-0.12px] lg:pt-14 lg:font-normal">
+            Вот <span class="text-accent">4 причины</span>, почему Career Sphere <br class="hidden lg:block" />
+            вашей точкой опоры
           </p>
         </div>
-        <div class="flex flex-col gap-5 overflow-y-clip">
+        <div data-aos="fade-up" class="flex flex-col gap-5 overflow-y-clip">
           <div
-            class="sticky top-[188px] sm:top-[198px] md:top-[154px] lg:top-[198px] xl:top-[250px] bg-size-[100%_100%] bg-[url(../../assets/images/Maskgroup22.webp)] md:bg-[url(../../assets/images/Mask_group3.webp)] lg:bg-[url(../../assets/images/Mask_group4.webp)] xl:bg-[url(../../assets/images/Mask_group5.webp)] bg-accent rounded-3xl py-5 px-6 text-white overflow-clip h-87.5 sm:h-111 md:flex md:gap-5 md:items-center md:px-4 md:py-9 md:h-87.5 lg:rounded-[45px] lg:py-20 lg:pl-7.5 lg:pr-22 lg:gap-11 lg:h-130 xl:h-175 xl:px-25 xl:py-29 xl:gap-33">
+            class="sticky top-10 bg-size-[100%_100%] bg-[url(../../assets/images/Maskgroup22.webp)] md:bg-[url(../../assets/images/Mask_group3.webp)] lg:bg-[url(../../assets/images/Mask_group4.webp)] xl:bg-[url(../../assets/images/Mask_group5.webp)] bg-accent rounded-3xl py-5 px-6 text-white overflow-clip h-87.5 sm:h-111 md:flex md:gap-5 md:items-center md:px-4 md:py-9 md:h-87.5 lg:rounded-[45px] lg:py-20 lg:pl-7.5 lg:pr-22 lg:gap-11 lg:h-130 xl:h-175 xl:px-25 xl:py-29 xl:gap-33">
             <p
               class="font-cygre font-black text-white opacity-7 text-[400px] absolute -top-20 -right-10 overflow-clip sm:text-[490px] md:text-[500px] md:-top-45 md:-right-6 lg:text-[800px] lg:-top-80 lg:-right-10 xl:text-[954px] xl:right-5">
               1
             </p>
             <p
-              class="font-medium uppercase text-[11px] rounded bg-transp px-3 h-7.5 flex items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg md:hidden">
+              class="font-medium uppercase text-[11px] rounded bg-transp px-3 h-7.5 flex items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg md:hidden tracking-[-0.14px]">
               Нужно увеличить доход
             </p>
             <img
@@ -532,14 +622,14 @@
               class="w-[58%] h-auto m-auto mb-4 sm:w-[51%] md:w-[35%] md:m-0 md:ml-2.5 lg:w-[38%] xl:w-[34%]" />
             <div class="xl:mr-13.5">
               <p
-                class="font-medium uppercase text-[11px] rounded bg-transp px-3 h-7.5 items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg hidden md:flex md:m-0 md:mb-4 lg:h-11 lg:text-[13px] lg:mb-6">
+                class="font-medium uppercase text-[11px] rounded bg-transp px-3 h-7.5 items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg hidden md:flex md:m-0 md:mb-4 lg:h-11 lg:text-[13px] lg:mb-6 tracking-[-0.14px]">
                 Нужно увеличить доход
               </p>
               <h3
-                class="text-center font-cygre font-semibold text-base sm:text-xl md:text-left md:mb-3 md:max-w-75 lg:text-4xl lg:max-w-none lg:mb-5 xl:mb-8 xl:text-[42px] xl:max-w-[535px]">
+                class="text-center font-cygre font-semibold text-base sm:text-xl md:text-left md:mb-3 md:max-w-75 lg:text-4xl lg:max-w-none lg:mb-5 xl:mb-8 xl:text-[42px] xl:max-w-[535px] leading-5.5 tracking-[-0.64px] sm:leading-7 lg:leading-10.5 lg:trackin-[-1.42px] xl:tracking-[-1.24px]">
                 Подбор проектов на ваших условиях, выплаты в любой валюте
               </h3>
-              <p class="hidden md:block text-xs lg:text-base">
+              <p class="hidden md:block text-xs lg:text-base leading-4.75 tracking-[-0.12px] lg:leading-5.25">
                 Мы находим проекты с различной степенью загрузки: от коротких до долгосрочных контрактов. Выбирайте то,
                 что подходит именно вам, без риска остаться без работы.
                 <br /><br />
@@ -549,13 +639,13 @@
             </div>
           </div>
           <div
-            class="sticky top-[188px] sm:top-[198px] md:top-[154px] lg:top-[198px] xl:top-[250px] bg-size-[100%_100%] bg-[url(../../assets/images/Maskgroup22.webp)] md:bg-[url(../../assets/images/Mask_group3.webp)] lg:bg-[url(../../assets/images/Mask_group4.webp)] xl:bg-[url(../../assets/images/Mask_group5.webp)] bg-accent rounded-3xl py-5 px-6 text-white overflow-clip h-87.5 sm:h-111 md:flex md:gap-5 md:items-center md:px-4 md:py-9 md:h-87.5 lg:rounded-[45px] lg:py-20 lg:pl-7.5 lg:pr-22 lg:gap-11 lg:h-130 xl:h-175 xl:px-25 xl:py-29 xl:gap-33">
+            class="sticky top-10 bg-size-[100%_100%] bg-[url(../../assets/images/Maskgroup22.webp)] md:bg-[url(../../assets/images/Mask_group3.webp)] lg:bg-[url(../../assets/images/Mask_group4.webp)] xl:bg-[url(../../assets/images/Mask_group5.webp)] bg-accent rounded-3xl py-5 px-6 text-white overflow-clip h-87.5 sm:h-111 md:flex md:gap-5 md:items-center md:px-4 md:py-9 md:h-87.5 lg:rounded-[45px] lg:py-20 lg:pl-7.5 lg:pr-22 lg:gap-11 lg:h-130 xl:h-175 xl:px-25 xl:py-29 xl:gap-33">
             <p
               class="font-cygre font-black text-white opacity-7 text-[400px] absolute -top-20 -right-10 overflow-clip sm:text-[490px] md:text-[500px] md:-top-45 md:-right-6 lg:text-[800px] lg:-top-80 lg:-right-10 xl:text-[954px] xl:right-5">
               2
             </p>
             <p
-              class="font-medium uppercase text-[11px] rounded bg-transp px-3 py-2 flex items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg md:hidden">
+              class="font-medium uppercase text-[11px] rounded bg-transp px-3 py-2 flex items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg md:hidden tracking-[-0.14px]">
               НЕТ карьерного роста / <br class="sm:hidden" />интересных задач
             </p>
             <img
@@ -564,27 +654,27 @@
               class="w-[58%] h-auto m-auto mb-4 sm:w-[51%] md:w-[35%] md:m-0 md:ml-2.5 lg:w-[38%] xl:w-[34%]" />
             <div class="xl:mr-13.5">
               <p
-                class="font-medium uppercase text-[11px] rounded bg-transp px-3 h-7.5 items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg hidden md:flex md:m-0 md:mb-4 lg:h-11 lg:text-[13px] lg:mb-6">
+                class="font-medium uppercase text-[11px] rounded bg-transp px-3 h-7.5 items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg hidden md:flex md:m-0 md:mb-4 lg:h-11 lg:text-[13px] lg:mb-6 tracking-[-0.14px]">
                 НЕТ карьерного роста / интересных задач
               </p>
               <h3
-                class="text-center font-cygre font-semibold text-base sm:text-xl md:text-left md:mb-3 md:max-w-75 lg:text-4xl lg:max-w-none lg:mb-5 xl:mb-8 xl:text-[42px] xl:max-w-[535px]">
+                class="text-center font-cygre font-semibold text-base sm:text-xl md:text-left md:mb-3 md:max-w-75 lg:text-4xl lg:max-w-none lg:mb-5 xl:mb-8 xl:text-[42px] xl:max-w-[535px] leading-5.5 tracking-[-0.64px] sm:leading-7 lg:leading-10.5 lg:trackin-[-1.42px] xl:tracking-[-1.24px]">
                 Доступ к интересным проектам, которые помогут развивать навыки и строить карьеру
               </h3>
-              <p class="hidden md:block text-xs lg:text-base">
+              <p class="hidden md:block text-xs lg:text-base leading-4.75 tracking-[-0.12px] lg:leading-5.25">
                 Мы предлагаем вакансии, которые совпадают с вашим тех.стеком и карьерными амбициями. Вместе мы
                 разработаем стратегию вашего роста.
               </p>
             </div>
           </div>
           <div
-            class="sticky top-[188px] sm:top-[198px] md:top-[154px] lg:top-[198px] xl:top-[250px] bg-size-[100%_100%] bg-[url(../../assets/images/Maskgroup22.webp)] md:bg-[url(../../assets/images/Mask_group3.webp)] lg:bg-[url(../../assets/images/Mask_group4.webp)] xl:bg-[url(../../assets/images/Mask_group5.webp)] bg-accent rounded-3xl py-5 px-6 text-white overflow-clip h-87.5 sm:h-111 md:flex md:gap-5 md:items-center md:px-4 md:py-9 md:h-87.5 lg:rounded-[45px] lg:py-20 lg:pl-7.5 lg:pr-22 lg:gap-11 lg:h-130 xl:h-175 xl:px-25 xl:py-29 xl:gap-33">
+            class="sticky top-10 bg-size-[100%_100%] bg-[url(../../assets/images/Maskgroup22.webp)] md:bg-[url(../../assets/images/Mask_group3.webp)] lg:bg-[url(../../assets/images/Mask_group4.webp)] xl:bg-[url(../../assets/images/Mask_group5.webp)] bg-accent rounded-3xl py-5 px-6 text-white overflow-clip h-87.5 sm:h-111 md:flex md:gap-5 md:items-center md:px-4 md:py-9 md:h-87.5 lg:rounded-[45px] lg:py-20 lg:pl-7.5 lg:pr-22 lg:gap-11 lg:h-130 xl:h-175 xl:px-25 xl:py-29 xl:gap-33">
             <p
               class="font-cygre font-black text-white opacity-7 text-[400px] absolute -top-20 -right-10 overflow-clip sm:text-[490px] md:text-[500px] md:-top-45 md:-right-6 lg:text-[800px] lg:-top-80 lg:-right-10 xl:text-[954px] xl:right-5">
               3
             </p>
             <p
-              class="font-medium uppercase text-[11px] rounded bg-transp px-3 py-2 flex items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg md:hidden">
+              class="font-medium uppercase text-[11px] rounded bg-transp px-3 py-2 flex items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg md:hidden tracking-[-0.14px]">
               токсичная среда или <span class="hidden sm:inline">профессиональный</span>
               <span class="sm:hidden">проф.</span> застой
             </p>
@@ -594,14 +684,14 @@
               class="w-[58%] h-auto m-auto mb-4 sm:w-[51%] md:w-[35%] md:m-0 md:ml-2.5 lg:w-[38%] xl:w-[34%]" />
             <div class="xl:mr-13.5">
               <p
-                class="font-medium uppercase text-[11px] rounded bg-transp px-3 h-7.5 items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg hidden md:flex md:m-0 md:mb-4 lg:h-11 lg:text-[13px] lg:mb-6">
+                class="font-medium uppercase text-[11px] rounded bg-transp px-3 h-7.5 items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg hidden md:flex md:m-0 md:mb-4 lg:h-11 lg:text-[13px] lg:mb-6 tracking-[-0.14px]">
                 токсичная среда или профессиональный застой
               </p>
               <h3
-                class="text-center font-cygre font-semibold text-base sm:text-xl md:text-left md:mb-3 md:max-w-75 lg:text-4xl lg:max-w-none lg:mb-5 xl:mb-8 xl:text-[42px] xl:max-w-[535px]">
+                class="text-center font-cygre font-semibold text-base sm:text-xl md:text-left md:mb-3 md:max-w-75 lg:text-4xl lg:max-w-none lg:mb-5 xl:mb-8 xl:text-[42px] xl:max-w-[535px] leading-5.5 tracking-[-0.64px] sm:leading-7 lg:leading-10.5 lg:trackin-[-1.42px] xl:tracking-[-1.24px]">
                 Вы выбираете проект, команду и работодателя. Мы учитываем ваш фидбек
               </h3>
-              <p class="hidden md:block text-xs lg:text-base">
+              <p class="hidden md:block text-xs lg:text-base leading-4.75 tracking-[-0.12px] lg:leading-5.25">
                 Учитываем ваши пожелания и фильтруем предложения: только подходящие работодатели, прозрачные условия
                 и уважение к вашей работе.
               </p>
@@ -614,7 +704,7 @@
               4
             </p>
             <p
-              class="font-medium uppercase text-[11px] rounded bg-transp px-3 h-7.5 flex items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg md:hidden">
+              class="font-medium uppercase text-[11px] rounded bg-transp px-3 h-7.5 flex items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg md:hidden tracking-[-0.14px]">
               Нужно увеличить доход
             </p>
             <img
@@ -623,14 +713,14 @@
               class="w-[58%] h-auto m-auto mb-4 sm:w-[51%] md:w-[35%] md:m-0 md:ml-2.5 lg:w-[38%] xl:w-[34%]" />
             <div class="xl:mr-13.5">
               <p
-                class="font-medium uppercase text-[11px] rounded bg-transp px-3 h-7.5 items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg hidden md:flex md:m-0 md:mb-4 lg:h-11 lg:text-[13px] lg:mb-6">
+                class="font-medium uppercase text-[11px] rounded bg-transp px-3 h-7.5 items-center justify-center w-fit m-auto mb-2 sm:h-9.5 sm:rounded-lg hidden md:flex md:m-0 md:mb-4 lg:h-11 lg:text-[13px] lg:mb-6 tracking-[-0.14px]">
                 Нужно увеличить доход
               </p>
               <h3
-                class="text-center font-cygre font-semibold text-base sm:text-xl md:text-left md:mb-3 md:max-w-75 lg:text-4xl lg:max-w-none lg:mb-5 xl:mb-8 xl:text-[42px] xl:max-w-[535px]">
+                class="text-center font-cygre font-semibold text-base sm:text-xl md:text-left md:mb-3 md:max-w-75 lg:text-4xl lg:max-w-none lg:mb-5 xl:mb-8 xl:text-[42px] xl:max-w-[535px] leading-5.5 tracking-[-0.64px] sm:leading-7 lg:leading-10.5 lg:trackin-[-1.42px] xl:tracking-[-1.24px]">
                 Полная конфиденциальность и сопровождение — от резюме до первого рабочего дня
               </h3>
-              <p class="hidden md:block text-xs lg:text-base">
+              <p class="hidden md:block text-xs lg:text-base leading-4.75 tracking-[-0.12px] lg:leading-5.25">
                 Ваши персональные данные и резюме будут доступны вашему будущему работодателю только после вашего
                 согласия. Вы можете не переживать, что кто-то из вашего отдела персонала или руководителей наткнётся на
                 ваше резюме.
@@ -642,48 +732,58 @@
 
       <section
         class="pt-13.5 md:pt-16 lg:pt-18 xl:pt-24 px-2.5 sm:px-1.5 lg:px-10 xl:px-16 flex flex-col gap-6 md:gap-8 lg:flex-row lg:items-center xl:justify-between">
-        <div class="flex flex-col gap-2.5 sm:gap-3 lg:gap-10.5 xl:pl-10.5 xl:max-w-135">
+        <div data-aos="fade-right" class="flex flex-col gap-2.5 sm:gap-3 lg:gap-10.5 xl:pl-10.5 xl:max-w-135">
           <h2
-            class="font-cygre font-semibold text-lg text-center sm:text-2xl lg:text-[32px] xl:text-[42px] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px] lg:text-left">
+            class="font-cygre font-semibold text-lg text-center sm:text-2xl lg:text-[32px] xl:text-[42px] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px] lg:text-left tracking-[-1.04px] lg:tracking-[-1.24px]">
             Персональный агент Career Sphere — ваш проводник на проекте и помощь в любых рабочих вопросах
           </h2>
-          <p class="font-medium text-center text-dark-50 text-[15px] lg:text-base lg:text-left">
+          <p
+            class="font-medium text-center text-dark-50 text-[15px] lg:text-base lg:text-left leading-5.25 tracking-[-0.14px] lg:tracking-[-0.12px]">
             Сравнительная таблица <br class="hidden lg:block" /><span class="text-accent">«c нами»</span> vs. «без нас»
           </p>
         </div>
         <div
+          data-aos="fade-left"
           class="flex flex-col gap-2 sm:flex-row sm:gap-3 lg:gap-5 md:px-8 lg:px-0 lg:min-w-140 xl:flex-1/2 xl:max-w-[50%]">
           <div
             class="bg-secondary px-4 py-5 rounded-3xl d:rounded-4xl lg:rounded-[42px] xl:rounded-[54px] lg:py-6 lg:px-5 lg:pb-10.5 xl:px-8 sm:flex-1/2">
-            <h3 class="font-cygre font-semibold text-lg text-center pb-5">Без агента</h3>
+            <h3
+              class="font-cygre font-semibold text-lg text-center pb-5 leading-5 tracking-[-0.64px] lg:leading-7.5 lg:tracking-[-1.04px] xl:leading-8 xl:tracking-[-1.34px]">
+              Без агента
+            </h3>
             <div class="flex flex-col gap-3 md:pl-2 lg:pl-0">
               <div class="flex gap-3 items-center">
                 <img src="assets/icons/Comparison_icon.svg" alt="иконка сравнительная" class="size-5 lg:size-7" />
-                <p class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal lg:leading-4.75">
+                <p
+                  class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal lg:leading-4.75 tracking-[-0.12px]">
                   Бесплатно
                 </p>
               </div>
               <div class="flex gap-3 items-center">
                 <img src="assets/icons/Comparison_icon2.svg" alt="иконка сравнительная" class="size-5 lg:size-7" />
-                <p class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal">
+                <p
+                  class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal tracking-[-0.12px]">
                   Постоянный стресс от подработок
                 </p>
               </div>
               <div class="flex gap-3 items-center">
                 <img src="assets/icons/Comparison_icon2.svg" alt="иконка сравнительная" class="size-5 lg:size-7" />
-                <p class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal">
+                <p
+                  class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal tracking-[-0.12px]">
                   Работаете на устаревших технологиях
                 </p>
               </div>
               <div class="flex gap-3 items-center">
                 <img src="assets/icons/Comparison_icon2.svg" alt="иконка сравнительная" class="size-5 lg:size-7" />
-                <p class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal">
+                <p
+                  class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal tracking-[-0.12px]">
                   Постоянное давление и недовольство
                 </p>
               </div>
               <div class="flex gap-3 items-center">
                 <img src="assets/icons/Comparison_icon2.svg" alt="иконка сравнительная" class="size-5 lg:size-7" />
-                <p class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal">
+                <p
+                  class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal tracking-[-0.12px]">
                   Потеря конфиденциальности
                 </p>
               </div>
@@ -695,35 +795,43 @@
               src="assets/images/logo.webp"
               alt="лого"
               class="absolute w-47 -bottom-6 -right-6 md:-right-10 lg:-bottom-10 lg:-right-15" />
-            <h3 class="font-cygre font-semibold text-lg text-center pb-5">С агентом</h3>
+            <h3
+              class="font-cygre font-semibold text-lg text-center pb-5 leading-5 tracking-[-0.64px] lg:leading-7.5 lg:tracking-[-1.04px] xl:leading-8 xl:tracking-[-1.34px]">
+              С агентом
+            </h3>
             <div class="flex flex-col gap-3 md:pl-2 lg:pl-0 relative z-10">
               <div class="flex gap-3 items-center">
                 <img src="assets/icons/Comparison_icon.svg" alt="иконка сравнительная" class="size-5 lg:size-7" />
-                <p class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal lg:leading-4.75">
+                <p
+                  class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal lg:leading-4.75 tracking-[-0.12px]">
                   Бесплатно
                 </p>
               </div>
               <div class="flex gap-3 items-center">
                 <img src="assets/icons/Comparison_icon.svg" alt="иконка сравнительная" class="size-5 lg:size-7" />
-                <p class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal">
+                <p
+                  class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal tracking-[-0.12px]">
                   Доступ к долгосрочным проектам
                 </p>
               </div>
               <div class="flex gap-3 items-center">
                 <img src="assets/icons/Comparison_icon.svg" alt="иконка сравнительная" class="size-5 lg:size-7" />
-                <p class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal">
+                <p
+                  class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal tracking-[-0.12px]">
                   Доступ к проектам с современными техстеками
                 </p>
               </div>
               <div class="flex gap-3 items-center">
                 <img src="assets/icons/Comparison_icon.svg" alt="иконка сравнительная" class="size-5 lg:size-7" />
-                <p class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal">
+                <p
+                  class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal tracking-[-0.12px]">
                   Четкие задачи и персональный агент
                 </p>
               </div>
               <div class="flex gap-3 items-center">
                 <img src="assets/icons/Comparison_icon.svg" alt="иконка сравнительная" class="size-5 lg:size-7" />
-                <p class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal">
+                <p
+                  class="text-[13px] text-dark-50 md:text-sm lg:text-[15px] leading-4.5 font-normal tracking-[-0.12px]">
                   Мы ищем работу за вас и защищаем ваши данные
                 </p>
               </div>
@@ -734,10 +842,11 @@
 
       <section id="case" class="pt-13.5 md:pt-16 lg:pt-18 xl:pt-24">
         <h2
-          class="font-cygre font-semibold text-lg text-center sm:text-2xl lg:text-[32px] xl:text-[42px] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px] xl:flex-1/2 xl:pl-10.5 pb-6 md:pb-8 lg:pb-9">
+          data-aos="fade-down"
+          class="font-cygre font-semibold text-lg text-center sm:text-2xl lg:text-[32px] xl:text-[42px] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px] xl:flex-1/2 xl:pl-10.5 pb-6 md:pb-8 lg:pb-9 tracking-[-1.04px] lg:tracking-[-1.24px]">
           Мы помогли разработчикам по всему миру, <br />и вот как это было
         </h2>
-        <div class="swiper relative !mx-2.5 sm:!mx-0">
+        <div data-aos="fade-up" class="swiper relative !mx-2.5 sm:!mx-0">
           <div
             class="bg-gradient-to-l from-[#FBFBFB] via-[#FBFBFB]/80 to-transparent via-95% h-full w-[calc((100%-600px)/2)] absolute z-10 hidden lg:block right-0"></div>
           <div
@@ -745,73 +854,97 @@
           <div class="hidden gap-2 m-auto w-fit lg:flex pb-10.5 xl:pb-16">
             <button
               aria-label="предыдущий слайд"
-              class="swiper-button-prev1 size-18 rounded-full flex items-center justify-center bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)]">
+              class="swiper-button-prev1 size-18 rounded-full flex items-center justify-center bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] hover:bg-[#DCDCDC]">
               <img src="assets/icons/Arrows-chevron.svg" alt="влево" class="rotate-180" />
             </button>
             <button
               aria-label="следующий слайд"
-              class="swiper-button-next1 size-18 rounded-full flex items-center justify-center bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)]">
+              class="swiper-button-next1 size-18 rounded-full flex items-center justify-center bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] hover:bg-[#DCDCDC]">
               <img src="assets/icons/Arrows-chevron.svg" alt="влево" />
             </button>
           </div>
           <div class="swiper-wrapper">
             <div
               class="swiper-slide sm:!w-[77%] md:!w-[82%] !max-w-150 bg-secondary px-4 py-5 rounded-3xl md:p-6 md:rounded-4xl">
-              <h3 class="font-cygre font-semibold text-lg pb-4 lg:text-[26px]">Застряла на устаревшем стеке</h3>
-              <p class="text-sm font-normal pb-4 text-dark-50">
+              <h3
+                class="font-cygre font-semibold text-lg pb-4 lg:text-[26px] leading-5 tracking-[-0.64px] lg:leading-8 lg:tracking-[-1.34px]">
+                Застряла на устаревшем стеке
+              </h3>
+              <p class="text-sm font-normal pb-4 text-dark-50 leading-5 tracking-[-0.12px]">
                 Дарья, .NET Developer, перешла на проект с использованием современных облачных технологий благодаря
                 нашему консультанту. <br /><br />
               </p>
               <div class="flex items-center gap-3">
                 <img src="assets/images/Rectangle.webp" alt="аватар" class="size-13.5 rounded-full" />
                 <div class="flex flex-col gap-1">
-                  <p class="font-medium text-[15px]">Дарья</p>
-                  <p class="text-dark-50 text-[13px] lg:text-sm">QA Engineer</p>
+                  <p class="font-medium text-[15px] leading-5.25 tracking-[-0.14px]">Дарья</p>
+                  <p
+                    class="text-dark-50 text-[13px] lg:text-sm leading-4 tracking-[-0.12px] lg:leading-5.25 lg:tracking-[-0.12px]">
+                    QA Engineer
+                  </p>
                 </div>
               </div>
             </div>
             <div
               class="swiper-slide sm:!w-[77%] md:!w-[82%] !max-w-150 bg-secondary px-4 py-5 rounded-3xl md:p-6 md:rounded-4xl">
-              <h3 class="font-cygre font-semibold text-lg pb-4 lg:text-[26px]">Застряла на устаревшем стеке</h3>
-              <p class="text-sm font-normal pb-4 text-dark-50">
+              <h3
+                class="font-cygre font-semibold text-lg pb-4 lg:text-[26px] leading-5 tracking-[-0.64px] lg:leading-8 lg:tracking-[-1.34px]">
+                Застряла на устаревшем стеке
+              </h3>
+              <p class="text-sm font-normal pb-4 text-dark-50 leading-5 tracking-[-0.12px]">
                 Дарья, .NET Developer, перешла на проект с использованием современных облачных технологий благодаря
                 нашему консультанту. <br /><br />
               </p>
               <div class="flex items-center gap-3">
                 <img src="assets/images/Rectangle.webp" alt="аватар" class="size-13.5 rounded-full" />
                 <div class="flex flex-col gap-1">
-                  <p class="font-medium text-[15px]">Дарья</p>
-                  <p class="text-dark-50 text-[13px] lg:text-sm">QA Engineer</p>
+                  <p class="font-medium text-[15px] leading-5.25 tracking-[-0.14px]">Дарья</p>
+                  <p
+                    class="text-dark-50 text-[13px] lg:text-sm leading-4 tracking-[-0.12px] lg:leading-5.25 lg:tracking-[-0.12px]">
+                    QA Engineer
+                  </p>
                 </div>
               </div>
             </div>
             <div
               class="swiper-slide sm:!w-[77%] md:!w-[82%] !max-w-150 bg-secondary px-4 py-5 rounded-3xl md:p-6 md:rounded-4xl">
-              <h3 class="font-cygre font-semibold text-lg pb-4 lg:text-[26px]">Застряла на устаревшем стеке</h3>
-              <p class="text-sm font-normal pb-4 text-dark-50">
+              <h3
+                class="font-cygre font-semibold text-lg pb-4 lg:text-[26px] leading-5 tracking-[-0.64px] lg:leading-8 lg:tracking-[-1.34px]">
+                Застряла на устаревшем стеке
+              </h3>
+              <p class="text-sm font-normal pb-4 text-dark-50 leading-5 tracking-[-0.12px]">
                 Дарья, .NET Developer, перешла на проект с использованием современных облачных технологий благодаря
                 нашему консультанту. <br /><br />
               </p>
               <div class="flex items-center gap-3">
                 <img src="assets/images/Rectangle.webp" alt="аватар" class="size-13.5 rounded-full" />
                 <div class="flex flex-col gap-1">
-                  <p class="font-medium text-[15px]">Дарья</p>
-                  <p class="text-dark-50 text-[13px] lg:text-sm">QA Engineer</p>
+                  <p class="font-medium text-[15px] leading-5.25 tracking-[-0.14px]">Дарья</p>
+                  <p
+                    class="text-dark-50 text-[13px] lg:text-sm leading-4 tracking-[-0.12px] lg:leading-5.25 lg:tracking-[-0.12px]">
+                    QA Engineer
+                  </p>
                 </div>
               </div>
             </div>
             <div
               class="swiper-slide sm:!w-[77%] md:!w-[82%] !max-w-150 bg-secondary px-4 py-5 rounded-3xl md:p-6 md:rounded-4xl">
-              <h3 class="font-cygre font-semibold text-lg pb-4 lg:text-[26px]">Застряла на устаревшем стеке</h3>
-              <p class="text-sm font-normal pb-4 text-dark-50">
+              <h3
+                class="font-cygre font-semibold text-lg pb-4 lg:text-[26px] leading-5 tracking-[-0.64px] lg:leading-8 lg:tracking-[-1.34px]">
+                Застряла на устаревшем стеке
+              </h3>
+              <p class="text-sm font-normal pb-4 text-dark-50 leading-5 tracking-[-0.12px]">
                 Дарья, .NET Developer, перешла на проект с использованием современных облачных технологий благодаря
                 нашему консультанту. <br /><br />
               </p>
               <div class="flex items-center gap-3">
                 <img src="assets/images/Rectangle.webp" alt="аватар" class="size-13.5 rounded-full" />
                 <div class="flex flex-col gap-1">
-                  <p class="font-medium text-[15px]">Дарья</p>
-                  <p class="text-dark-50 text-[13px] lg:text-sm">QA Engineer</p>
+                  <p class="font-medium text-[15px] leading-5.25 tracking-[-0.14px]">Дарья</p>
+                  <p
+                    class="text-dark-50 text-[13px] lg:text-sm leading-4 tracking-[-0.12px] lg:leading-5.25 lg:tracking-[-0.12px]">
+                    QA Engineer
+                  </p>
                 </div>
               </div>
             </div>
@@ -825,10 +958,13 @@
         class="pt-13.5 md:pt-16 lg:pt-18 xl:pt-24 px-1.25 sm:px-1.5 md:px-2.5 lg:px-10 xl:px-16 flex flex-col gap-6 md:gap-8 lg:gap-9 xl:flex-row relative">
         <div class="flex flex-col gap-2.5 sm:gap-3 lg:gap-10.5">
           <h2
-            class="font-cygre font-semibold text-lg text-center sm:text-2xl lg:text-[32px] xl:text-[42px] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px] xl:text-left xl:pl-10.5">
+            data-aos="fade-right"
+            class="font-cygre font-semibold text-lg text-center sm:text-2xl lg:text-[32px] xl:text-[42px] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px] xl:text-left xl:pl-10.5 tracking-[-1.04px] lg:tracking-[-1.24px]">
             Персональный агент всегда с вами на связи
           </h2>
-          <p class="font-medium text-center text-dark-50 text-[15px] lg:text-base lg:text-left lg:hidden">
+          <p
+            data-aos="fade-right"
+            class="font-medium text-center text-dark-50 text-[15px] lg:text-base lg:text-left lg:hidden">
             Поддержка на каждом этапе —
             <span class="text-accent"> путь к вашему успеху</span>
           </p>
@@ -837,18 +973,23 @@
           class="flex flex-col gap-2 sm:grid sm:grid-cols-2 sm:gap-3 md:block md:columns-3 md:space-y-3 lg:space-y-5 lg:gap-5">
           <div class="md:pb-60 break-inside-avoid xl:pb-0 xl:pt-48">
             <div
+              data-aos="fade-up"
               class="flex gap-3 py-3 px-4 rounded-3xl bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] bg-[url(../../assets/images/color-gr.webp)] bg-no-repeat bg-[length:100%_100%] bg-center sm:flex-col sm:items-center sm:gap-4 sm:px-4 sm:pb-6 sm:pt-5 sm:text-center sm:bg-[url(../../assets/images/color-gr2.webp)] md:px-3 lg:px-6 lg:py-8 lg:gap-4 lg:bg-[url(../../assets/images/color-gr3.webp)] xl:px-6 xl:py-10.2 lg:rounded-4xl xl:lg:bg-[url(../../assets/images/color-gr4.webp)] break-inside-avoid items-center sm:h-full">
               <img src="assets/images/2image.svg" alt="иллюстрация" class="flex-none size-16 lg:size-24" />
               <div>
-                <h3 class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2">Удобные выплаты</h3>
-                <p class="text-[13px] text-dark-50 lg:text-[15px]">
+                <h3
+                  class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2 leading-5 tracking-[-0.64px] lg:leading-6">
+                  Удобные выплаты
+                </h3>
+                <p class="text-[13px] text-dark-50 lg:text-[15px] leading-4.25 tracking-[-0.12px] lg:leading-4.75">
                   Короткие или part-time проекты для дополнительного заработка
                 </p>
               </div>
             </div>
           </div>
           <p
-            class="text-dark-50 text-[15px] lg:text-base lg:text-left hidden lg:block max-w-50.5 lg:ml-20 xl:absolute xl:top-95 xl:left-55.5">
+            data-aos="fade-up"
+            class="text-dark-50 text-[15px] lg:text-base lg:text-left hidden lg:block max-w-50.5 lg:ml-20 xl:absolute xl:top-95 xl:left-55.5 leading-5.25 tracking-[-0.14px] lg:tracking-[-0.12px]">
             Поддержка на каждом этапе —
             <span class="text-accent"> путь к вашему успеху</span>
           </p>
@@ -856,32 +997,46 @@
             class="md:pt-12.5 lg:break-inside-avoid flex flex-col gap-2 lg:gap-5 lg:pb-5 sm:grid sm:grid-cols-2 sm:row-start-2 sm:col-span-2 md:flex md:flex-col">
             <div class="md:pb-45 break-inside-avoid lg:pb-0 sm:h-full">
               <div
+                data-aos="fade-up"
                 class="flex gap-3 py-3 px-4 rounded-3xl bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] bg-[url(../../assets/images/color-gr.webp)] bg-no-repeat bg-[length:100%_100%] bg-center sm:flex-col sm:items-center sm:gap-4 sm:px-4 sm:pb-6 sm:pt-5 sm:text-center sm:bg-[url(../../assets/images/color-gr2.webp)] md:px-3 lg:px-6 lg:py-8 lg:gap-4 lg:bg-[url(../../assets/images/color-gr3.webp)] xl:px-6 xl:py-10.2 lg:rounded-4xl xl:lg:bg-[url(../../assets/images/color-gr4.webp)] break-inside-avoid items-center sm:h-full">
                 <img src="assets/images/2image-1.svg" alt="иллюстрация" class="flex-none size-16 lg:size-24" />
                 <div>
-                  <h3 class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2">Регулярный поиск</h3>
-                  <p class="text-[13px] text-dark-50 lg:text-[15px]">
+                  <h3
+                    class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2 leading-5 tracking-[-0.64px] lg:leading-6">
+                    Регулярный поиск
+                  </h3>
+                  <p class="text-[13px] text-dark-50 lg:text-[15px] leading-4.25 tracking-[-0.12px] lg:leading-4.75">
                     Проекты, которые соответствуют вашим навыкам и интересам
                   </p>
                 </div>
               </div>
             </div>
             <div
+              data-aos="fade-up"
               class="flex gap-3 py-3 px-4 rounded-3xl bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] bg-[url(../../assets/images/color-gr.webp)] bg-no-repeat bg-[length:100%_100%] bg-center sm:flex-col sm:items-center sm:gap-4 sm:px-4 sm:pb-6 sm:pt-5 sm:text-center sm:bg-[url(../../assets/images/color-gr2.webp)] md:px-3 lg:px-6 lg:py-8 lg:gap-4 lg:bg-[url(../../assets/images/color-gr3.webp)] xl:px-6 xl:py-10.2 lg:rounded-4xl xl:lg:bg-[url(../../assets/images/color-gr4.webp)] break-inside-avoid items-center">
               <img src="assets/images/2image-3.svg" alt="иллюстрация" class="flex-none size-16 lg:size-24" />
               <div>
-                <h3 class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2">Выбор команды и проекта</h3>
-                <p class="text-[13px] text-dark-50 lg:text-[15px]">Все организационные вопросы мы берем на себя</p>
+                <h3
+                  class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2 leading-5 tracking-[-0.64px] lg:leading-6">
+                  Выбор команды и проекта
+                </h3>
+                <p class="text-[13px] text-dark-50 lg:text-[15px] leading-4.25 tracking-[-0.12px] lg:leading-4.75">
+                  Все организационные вопросы мы берем на себя
+                </p>
               </div>
             </div>
           </div>
           <div class="break-inside-avoid lg:pt-33.5">
             <div
+              data-aos="fade-up"
               class="flex gap-3 py-3 px-4 rounded-3xl bg-white shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] bg-[url(../../assets/images/color-gr.webp)] bg-no-repeat bg-[length:100%_100%] bg-center sm:flex-col sm:items-center sm:gap-4 sm:px-4 sm:pb-6 sm:pt-5 sm:text-center sm:bg-[url(../../assets/images/color-gr2.webp)] md:px-3 lg:px-6 lg:py-8 lg:gap-4 lg:bg-[url(../../assets/images/color-gr3.webp)] xl:px-6 xl:py-10.2 lg:rounded-4xl xl:lg:bg-[url(../../assets/images/color-gr4.webp)] break-inside-avoid items-center">
               <img src="assets/images/2image-2.svg" alt="иллюстрация" class="flex-none size-16 lg:size-24" />
               <div>
-                <h3 class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2">Гибкость переходов</h3>
-                <p class="text-[13px] text-dark-50 lg:text-[15px]">
+                <h3
+                  class="font-cygre font-semibold text-base pb-2 lg:text-[20px] lg:pt-2 leading-5 tracking-[-0.64px] lg:leading-6">
+                  Гибкость переходов
+                </h3>
+                <p class="text-[13px] text-dark-50 lg:text-[15px] leading-4.25 tracking-[-0.12px] lg:leading-4.75">
                   Меняйте проекты и компании без увольнений и лишних формальностей
                 </p>
               </div>
@@ -894,15 +1049,17 @@
         id="questions"
         class="pt-13.5 md:pt-16 lg:pt-18 xl:pt-24 px-1.25 sm:px-1.5 md:px-2.5 lg:px-10 xl:px-16 flex flex-col gap-6 lg:flex-row">
         <h2
-          class="font-cygre font-semibold text-lg text-center sm:text-2xl lg:text-[32px] xl:text-[42px] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px] lg:text-left xl:flex-1/2 xl:pl-10.5">
+          data-aos="fade-right"
+          class="font-cygre font-semibold text-lg text-center sm:text-2xl lg:text-[32px] xl:text-[42px] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px] lg:text-left xl:flex-1/2 xl:pl-10.5 tracking-[-1.04px] lg:tracking-[-1.24px]">
           Все что необходимо знать, перед знакомством
         </h2>
         <div class="flex flex-col gap-3 sm:gap-6 md:gap-3 lg:gap-6 xl:flex-1/2">
           <div
+            data-aos="fade-up"
             class="px-4 py-3 rounded-3xl bg-white bg-size-[100%_100%] bg-[url(../../assets/images/Group_526.webp)] sm:p-5 md:px-6 xl:px-8 cursor-pointer shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] js-acc-container">
             <div class="flex gap-6 items-center w-full justify-between">
               <h3
-                class="font-cygre font-semibold text-base leading-5 lg:text-xl lg:leading-6 xl:text-2xl xl:leading-7.5">
+                class="font-cygre font-semibold text-base leading-5 lg:text-xl lg:leading-6 xl:text-2xl xl:leading-7.5 tracking-[-0.64px] xl:tracking-[-1.04px]">
                 А если я начну работать на проекте, и мне что-то не понравится?
               </h3>
               <img
@@ -911,7 +1068,8 @@
                 class="size-5 md:size-6 transition-all duration-300 js-acc-icon" />
             </div>
             <div class="max-h-0 overflow-hidden transition-all duration-300 js-acc-text">
-              <p class="py-3 text-dark-50 text-[13px] lg:text-[15px] sm:pb-1 xl:pb-4 pr-11">
+              <p
+                class="py-3 text-dark-50 text-[13px] lg:text-[15px] sm:pb-1 xl:pb-4 pr-11 leading-4.25 tracking-[-0.12px] lg:leading-4.75">
                 Да! Наши агенты бесплатно помогают вам находить проекты. Мы создаем в нашей базе ваш профиль, а дальше
                 генты работают за вас — без скрытых платежей, подписок или комиссий. Это удобный способ получать заказы
                 без лишних затрат.
@@ -919,10 +1077,11 @@
             </div>
           </div>
           <div
+            data-aos="fade-up"
             class="px-4 py-3 rounded-3xl bg-white bg-size-[100%_100%] bg-[url(../../assets/images/Group_526.webp)] sm:p-5 md:px-6 xl:px-8 cursor-pointer shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] js-acc-container">
             <div class="flex gap-6 items-center w-full justify-between">
               <h3
-                class="font-cygre font-semibold text-base leading-5 lg:text-xl lg:leading-6 xl:text-2xl xl:leading-7.5">
+                class="font-cygre font-semibold text-base leading-5 lg:text-xl lg:leading-6 xl:text-2xl xl:leading-7.5 tracking-[-0.64px] xl:tracking-[-1.04px]">
                 Могу ли я отказаться от работодателей, которые мне не нравятся?
               </h3>
               <img
@@ -931,7 +1090,8 @@
                 class="size-5 md:size-6 transition-all duration-300 js-acc-icon" />
             </div>
             <div class="max-h-0 overflow-hidden transition-all duration-300 js-acc-text">
-              <p class="py-3 text-dark-50 text-[13px] lg:text-[15px] sm:pb-1 xl:pb-4 pr-11">
+              <p
+                class="py-3 text-dark-50 text-[13px] lg:text-[15px] sm:pb-1 xl:pb-4 pr-11 leading-4.25 tracking-[-0.12px] lg:leading-4.75">
                 Да! Наши агенты бесплатно помогают вам находить проекты. Мы создаем в нашей базе ваш профиль, а дальше
                 генты работают за вас — без скрытых платежей, подписок или комиссий. Это удобный способ получать заказы
                 без лишних затрат.
@@ -939,10 +1099,11 @@
             </div>
           </div>
           <div
+            data-aos="fade-up"
             class="px-4 py-3 rounded-3xl bg-white bg-size-[100%_100%] bg-[url(../../assets/images/Group_526.webp)] sm:p-5 md:px-6 xl:px-8 cursor-pointer shadow-[0px_8px_18px_-6px_rgba(0,0,59,0.05)] js-acc-container">
             <div class="flex gap-6 items-center w-full justify-between">
               <h3
-                class="font-cygre font-semibold text-base leading-5 lg:text-xl lg:leading-6 xl:text-2xl xl:leading-7.5">
+                class="font-cygre font-semibold text-base leading-5 lg:text-xl lg:leading-6 xl:text-2xl xl:leading-7.5 tracking-[-0.64px] xl:tracking-[-1.04px]">
                 А если мне не подойдут проекты?
               </h3>
               <img
@@ -951,7 +1112,8 @@
                 class="size-5 md:size-6 transition-all duration-300 js-acc-icon" />
             </div>
             <div class="max-h-0 overflow-hidden transition-all duration-300 js-acc-text">
-              <p class="py-3 text-dark-50 text-[13px] lg:text-[15px] sm:pb-1 xl:pb-4 pr-11">
+              <p
+                class="py-3 text-dark-50 text-[13px] lg:text-[15px] sm:pb-1 xl:pb-4 pr-11 leading-4.25 tracking-[-0.12px] lg:leading-4.75">
                 Да! Наши агенты бесплатно помогают вам находить проекты. Мы создаем в нашей базе ваш профиль, а дальше
                 генты работают за вас — без скрытых платежей, подписок или комиссий. Это удобный способ получать заказы
                 без лишних затрат.
@@ -963,6 +1125,7 @@
 
       <section id="contacts" class="lg:px-10 xl:px-51 pt-13.5 md:pt-16 lg:pt-18 xl:pt-24">
         <div
+          data-aos="fade-up"
           class="bg-accent rounded-[20px] mx-2.5 aspect-[300/160] sm:mx-1.5 sm:aspect-[468/242] md:mx-16 md:aspect-[514/240] lg:mx-20 lg:aspect-[780/348] flex justify-center items-center relative overflow-clip xl:min-w-185 xl:mx-auto sm:rounded-3xl lg:rounded-[54px]">
           <img
             src="assets/images/puzzle_illustration.svg"
@@ -972,16 +1135,18 @@
           <img src="assets/images/bg.webp" alt="декор" class="absolute w-full h-full top-0 z-0 hidden sm:block" />
         </div>
         <h2
-          class="font-cygre font-semibold text-lg text-center pt-3 sm:text-2xl sm:pt-5 md:pt-8 lg:pt-10.5 lg:text-[32px] xl:pt-16 xl:text-[42px] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px]">
+          data-aos="fade-up"
+          class="font-cygre font-semibold text-lg text-center pt-3 sm:text-2xl sm:pt-5 md:pt-8 lg:pt-10.5 lg:text-[32px] xl:pt-16 xl:text-[42px] leading-[22px] sm:leading-[30px] lg:leading-[42px] xl:leading-[50px] tracking-[-1.04px] lg:tracking-[-1.24px]">
           Готовы присоединиться к нашей программе?
         </h2>
         <p
-          class="font-normal text-dark-50 text-base pt-2.5 sm:pt-3 lg:pt-4 sm:max-w-77.5 m-auto md:max-w-none text-center">
+          data-aos="fade-up"
+          class="font-normal text-dark-50 text-base pt-2.5 sm:pt-3 lg:pt-4 sm:max-w-77.5 m-auto md:max-w-none text-center leading-5.25 tracking-[-0.12px]">
           доверьтесь нам чтобы работать на проектах <span class="text-accent">интересных именно вам</span>
         </p>
-        <div class="w-full text-center">
+        <div data-aos="fade-up" class="w-full text-center">
           <button
-            class="text-dark text-[13px] font-medium px-4 py-3.5 rounded-xl bg-extra grow-0 w-fit lg:py-4 lg:px-5 lg:text-[15px] bg-gradient-to-b from-transparent to-transparent hover:from-white/30 hover:to-transparent hover:bg-gradient-to-b transition-none lg:rounded-2xl mx-auto mt-6 lg:mt-9 xl:mt-10.5 js-modal-btn">
+            class="text-dark text-[13px] font-medium px-4 py-3.5 rounded-xl bg-extra grow-0 w-fit lg:py-4 lg:px-5 lg:text-[15px] bg-gradient-to-b from-transparent to-transparent hover:from-white/30 hover:to-transparent hover:bg-gradient-to-b transition-none lg:rounded-2xl mx-auto mt-6 lg:mt-9 xl:mt-10.5 js-modal-btn leading-4 tracking-[-0.14px] lg:leading-5.25">
             Записаться на знакомство
           </button>
         </div>
@@ -991,7 +1156,9 @@
         class="flex flex-col gap-4 items-center py-4 px-3 rounded-2xl bg-secondary m-1 mt-13.5 sm:p-5 sm:rounded-3xl md:rounded-4xl md:px-6 lg:rounded-[42px] lg:m-2 lg:mt-18 lg:px-8 lg:py-9 xl:rounded-[54px] xl:px-13.5 xl:py-10.5 xl:mx-5 xl:mb-3 xl:mt-24 md:gap-3">
         <div class="flex flex-col gap-4 items-center sm:flex-row sm:justify-between w-full md:items-start">
           <img src="assets/icons/Logo2.svg" alt="лого" class="h-8 w-auto lg:h-10" />
-          <a href="mailto:info@careersphere.tech" class="font-medium text-sm">info@careersphere.tech</a>
+          <a href="mailto:info@careersphere.tech" class="font-medium text-sm leading-5.25 tracking-[-0.14px]"
+            >info@careersphere.tech</a
+          >
         </div>
         <div
           class="flex flex-col gap-4 items-center sm:flex-row-reverse sm:justify-between w-full md:items-start lg:items-end">
@@ -1004,14 +1171,16 @@
             </a>
           </div>
           <div
-            class="text-[13px] text-dark-50 flex gap-1 pt-3 justify-center text-center sm:flex-col sm:pt-0 sm:text-left sm:items-start lg:flex-row lg:gap-13.5">
+            class="text-[13px] text-dark-50 flex gap-1 pt-3 justify-center text-center sm:flex-col sm:pt-0 sm:text-left sm:items-start lg:flex-row lg:gap-13.5 leading-4.5 tracking-[-0.12px]">
             <button class="underline">политика обработки персональных данных</button>
             <button class="underline">пользовательское соглашение</button>
           </div>
         </div>
       </footer>
     </main>
+
     <script src="src/js/main.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>

@@ -214,6 +214,9 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+  .top-10 {
+    top: calc(var(--spacing) * 10);
+  }
   .top-13\.5 {
     top: calc(var(--spacing) * 13.5);
   }
@@ -567,14 +570,8 @@
     --tw-gradient-position: to right in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
-  .bg-\[url\(\.\.\/\.\.\/assets\/images\/Group_526\.png\)\] {
-    background-image: url(../../assets/images/Group_526.png);
-  }
   .bg-\[url\(\.\.\/\.\.\/assets\/images\/Group_526\.webp\)\] {
     background-image: url(../../assets/images/Group_526.webp);
-  }
-  .bg-\[url\(\.\.\/\.\.\/assets\/images\/Group_527\.png\)\] {
-    background-image: url(../../assets/images/Group_527.png);
   }
   .bg-\[url\(\.\.\/\.\.\/assets\/images\/Group_527\.webp\)\] {
     background-image: url(../../assets/images/Group_527.webp);
@@ -582,38 +579,14 @@
   .bg-\[url\(\.\.\/\.\.\/assets\/images\/Mask_group\.webp\)\] {
     background-image: url(../../assets/images/Mask_group.webp);
   }
-  .bg-\[url\(\.\.\/\.\.\/assets\/images\/Mask_group0\.png\)\] {
-    background-image: url(../../assets/images/Mask_group0.png);
-  }
   .bg-\[url\(\.\.\/\.\.\/assets\/images\/Mask_group0\.webp\)\] {
     background-image: url(../../assets/images/Mask_group0.webp);
-  }
-  .bg-\[url\(\.\.\/\.\.\/assets\/images\/Maskgroup22\.png\)\] {
-    background-image: url(../../assets/images/Maskgroup22.png);
   }
   .bg-\[url\(\.\.\/\.\.\/assets\/images\/Maskgroup22\.webp\)\] {
     background-image: url(../../assets/images/Maskgroup22.webp);
   }
-  .bg-\[url\(\.\.\/\.\.\/assets\/images\/color-gr\.png\)\] {
-    background-image: url(../../assets/images/color-gr.png);
-  }
   .bg-\[url\(\.\.\/\.\.\/assets\/images\/color-gr\.webp\)\] {
     background-image: url(../../assets/images/color-gr.webp);
-  }
-  .bg-\[url\(\/\.\.\/assets\/images\/Group_526\.png\)\] {
-    background-image: url(/../assets/images/Group_526.png);
-  }
-  .bg-\[url\(\/\.\.\/assets\/images\/Group_527\.png\)\] {
-    background-image: url(/../assets/images/Group_527.png);
-  }
-  .bg-\[url\(\/\.\.\/assets\/images\/Mask_group0\.png\)\] {
-    background-image: url(/../assets/images/Mask_group0.png);
-  }
-  .bg-\[url\(\/\.\.\/assets\/images\/Maskgroup22\.png\)\] {
-    background-image: url(/../assets/images/Maskgroup22.png);
-  }
-  .bg-\[url\(\/\.\.\/assets\/images\/color-gr\.png\)\] {
-    background-image: url(/../assets/images/color-gr.png);
   }
   .from-\[\#FBFBFB\] {
     --tw-gradient-from: #FBFBFB;
@@ -689,6 +662,9 @@
   .py-2\.5 {
     padding-block: calc(var(--spacing) * 2.5);
   }
+  .py-2\.75 {
+    padding-block: calc(var(--spacing) * 2.75);
+  }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
@@ -706,6 +682,9 @@
   }
   .pt-2\.5 {
     padding-top: calc(var(--spacing) * 2.5);
+  }
+  .pt-2\.75 {
+    padding-top: calc(var(--spacing) * 2.75);
   }
   .pt-3 {
     padding-top: calc(var(--spacing) * 3);
@@ -730,6 +709,9 @@
   }
   .pb-2 {
     padding-bottom: calc(var(--spacing) * 2);
+  }
+  .pb-2\.25 {
+    padding-bottom: calc(var(--spacing) * 2.25);
   }
   .pb-3 {
     padding-bottom: calc(var(--spacing) * 3);
@@ -802,13 +784,33 @@
   .text-\[400px\] {
     font-size: 400px;
   }
+  .leading-4 {
+    --tw-leading: calc(var(--spacing) * 4);
+    line-height: calc(var(--spacing) * 4);
+  }
   .leading-4\.5 {
     --tw-leading: calc(var(--spacing) * 4.5);
     line-height: calc(var(--spacing) * 4.5);
   }
+  .leading-4\.25 {
+    --tw-leading: calc(var(--spacing) * 4.25);
+    line-height: calc(var(--spacing) * 4.25);
+  }
+  .leading-4\.75 {
+    --tw-leading: calc(var(--spacing) * 4.75);
+    line-height: calc(var(--spacing) * 4.75);
+  }
   .leading-5 {
     --tw-leading: calc(var(--spacing) * 5);
     line-height: calc(var(--spacing) * 5);
+  }
+  .leading-5\.5 {
+    --tw-leading: calc(var(--spacing) * 5.5);
+    line-height: calc(var(--spacing) * 5.5);
+  }
+  .leading-5\.25 {
+    --tw-leading: calc(var(--spacing) * 5.25);
+    line-height: calc(var(--spacing) * 5.25);
   }
   .leading-7\.5 {
     --tw-leading: calc(var(--spacing) * 7.5);
@@ -849,6 +851,30 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .tracking-\[-0\.12px\] {
+    --tw-tracking: -0.12px;
+    letter-spacing: -0.12px;
+  }
+  .tracking-\[-0\.14px\] {
+    --tw-tracking: -0.14px;
+    letter-spacing: -0.14px;
+  }
+  .tracking-\[-0\.64px\] {
+    --tw-tracking: -0.64px;
+    letter-spacing: -0.64px;
+  }
+  .tracking-\[-1\.04px\] {
+    --tw-tracking: -1.04px;
+    letter-spacing: -1.04px;
+  }
+  .tracking-\[-1\.36px\] {
+    --tw-tracking: -1.36px;
+    letter-spacing: -1.36px;
+  }
+  .tracking-\[-014px\] {
+    --tw-tracking: -014px;
+    letter-spacing: -014px;
   }
   .tracking-tight {
     --tw-tracking: var(--tracking-tight);
@@ -900,6 +926,19 @@
   .duration-300 {
     --tw-duration: 300ms;
     transition-duration: 300ms;
+  }
+  .placeholder\:text-sm {
+    &::placeholder {
+      font-size: var(--text-sm);
+      line-height: var(--tw-leading, var(--text-sm--line-height));
+    }
+  }
+  .hover\:bg-\[\#DCDCDC\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #DCDCDC;
+      }
+    }
   }
   .hover\:bg-\[\#FBFBFB\] {
     &:hover {
@@ -965,11 +1004,6 @@
   .sm\:\!mx-0 {
     @media (width >= 480px) {
       margin-inline: calc(var(--spacing) * 0) !important;
-    }
-  }
-  .sm\:mx-0 {
-    @media (width >= 480px) {
-      margin-inline: calc(var(--spacing) * 0);
     }
   }
   .sm\:mx-1\.5 {
@@ -1162,19 +1196,9 @@
       background-image: url(../../assets/images/Mask_group2.webp);
     }
   }
-  .sm\:bg-\[url\(\.\.\/\.\.\/assets\/images\/color-gr2\.png\)\] {
-    @media (width >= 480px) {
-      background-image: url(../../assets/images/color-gr2.png);
-    }
-  }
   .sm\:bg-\[url\(\.\.\/\.\.\/assets\/images\/color-gr2\.webp\)\] {
     @media (width >= 480px) {
       background-image: url(../../assets/images/color-gr2.webp);
-    }
-  }
-  .sm\:bg-\[url\(\/\.\.\/assets\/images\/color-gr2\.png\)\] {
-    @media (width >= 480px) {
-      background-image: url(/../assets/images/color-gr2.png);
     }
   }
   .sm\:p-4 {
@@ -1185,11 +1209,6 @@
   .sm\:p-5 {
     @media (width >= 480px) {
       padding: calc(var(--spacing) * 5);
-    }
-  }
-  .sm\:px-0 {
-    @media (width >= 480px) {
-      padding-inline: calc(var(--spacing) * 0);
     }
   }
   .sm\:px-1\.5 {
@@ -1306,6 +1325,18 @@
       font-size: 490px;
     }
   }
+  .sm\:leading-6 {
+    @media (width >= 480px) {
+      --tw-leading: calc(var(--spacing) * 6);
+      line-height: calc(var(--spacing) * 6);
+    }
+  }
+  .sm\:leading-7 {
+    @media (width >= 480px) {
+      --tw-leading: calc(var(--spacing) * 7);
+      line-height: calc(var(--spacing) * 7);
+    }
+  }
   .sm\:leading-\[30px\] {
     @media (width >= 480px) {
       --tw-leading: 30px;
@@ -1316,6 +1347,18 @@
     @media (width >= 480px) {
       --tw-leading: 38px;
       line-height: 38px;
+    }
+  }
+  .sm\:tracking-\[-0\.64px\] {
+    @media (width >= 480px) {
+      --tw-tracking: -0.64px;
+      letter-spacing: -0.64px;
+    }
+  }
+  .sm\:tracking-\[-1\.24px\] {
+    @media (width >= 480px) {
+      --tw-tracking: -1.24px;
+      letter-spacing: -1.24px;
     }
   }
   .md\:-top-45 {
@@ -1553,19 +1596,9 @@
       border-radius: var(--radius-4xl);
     }
   }
-  .md\:bg-\[url\(\.\.\/\.\.\/assets\/images\/Mask_group3\.png\)\] {
-    @media (width >= 640px) {
-      background-image: url(../../assets/images/Mask_group3.png);
-    }
-  }
   .md\:bg-\[url\(\.\.\/\.\.\/assets\/images\/Mask_group3\.webp\)\] {
     @media (width >= 640px) {
       background-image: url(../../assets/images/Mask_group3.webp);
-    }
-  }
-  .md\:bg-\[url\(\/\.\.\/assets\/images\/Mask_group3\.png\)\] {
-    @media (width >= 640px) {
-      background-image: url(/../assets/images/Mask_group3.png);
     }
   }
   .md\:p-6 {
@@ -1702,6 +1735,12 @@
   .md\:text-\[500px\] {
     @media (width >= 640px) {
       font-size: 500px;
+    }
+  }
+  .md\:tracking-\[-0\.14px\] {
+    @media (width >= 640px) {
+      --tw-tracking: -0.14px;
+      letter-spacing: -0.14px;
     }
   }
   .lg\:-top-80 {
@@ -1854,6 +1893,11 @@
   .lg\:h-11 {
     @media (width >= 960px) {
       height: calc(var(--spacing) * 11);
+    }
+  }
+  .lg\:h-14 {
+    @media (width >= 960px) {
+      height: calc(var(--spacing) * 14);
     }
   }
   .lg\:h-16 {
@@ -2062,34 +2106,14 @@
       border-bottom-right-radius: var(--radius-4xl);
     }
   }
-  .lg\:bg-\[url\(\.\.\/\.\.\/assets\/images\/Mask_group4\.png\)\] {
-    @media (width >= 960px) {
-      background-image: url(../../assets/images/Mask_group4.png);
-    }
-  }
   .lg\:bg-\[url\(\.\.\/\.\.\/assets\/images\/Mask_group4\.webp\)\] {
     @media (width >= 960px) {
       background-image: url(../../assets/images/Mask_group4.webp);
     }
   }
-  .lg\:bg-\[url\(\.\.\/\.\.\/assets\/images\/color-gr3\.png\)\] {
-    @media (width >= 960px) {
-      background-image: url(../../assets/images/color-gr3.png);
-    }
-  }
   .lg\:bg-\[url\(\.\.\/\.\.\/assets\/images\/color-gr3\.webp\)\] {
     @media (width >= 960px) {
       background-image: url(../../assets/images/color-gr3.webp);
-    }
-  }
-  .lg\:bg-\[url\(\/\.\.\/assets\/images\/Mask_group4\.png\)\] {
-    @media (width >= 960px) {
-      background-image: url(/../assets/images/Mask_group4.png);
-    }
-  }
-  .lg\:bg-\[url\(\/\.\.\/assets\/images\/color-gr3\.png\)\] {
-    @media (width >= 960px) {
-      background-image: url(/../assets/images/color-gr3.png);
     }
   }
   .lg\:p-0 {
@@ -2190,6 +2214,16 @@
   .lg\:pt-10\.5 {
     @media (width >= 960px) {
       padding-top: calc(var(--spacing) * 10.5);
+    }
+  }
+  .lg\:pt-13 {
+    @media (width >= 960px) {
+      padding-top: calc(var(--spacing) * 13);
+    }
+  }
+  .lg\:pt-14 {
+    @media (width >= 960px) {
+      padding-top: calc(var(--spacing) * 14);
     }
   }
   .lg\:pt-18 {
@@ -2349,16 +2383,34 @@
       line-height: calc(var(--spacing) * 4.75);
     }
   }
+  .lg\:leading-5\.25 {
+    @media (width >= 960px) {
+      --tw-leading: calc(var(--spacing) * 5.25);
+      line-height: calc(var(--spacing) * 5.25);
+    }
+  }
   .lg\:leading-6 {
     @media (width >= 960px) {
       --tw-leading: calc(var(--spacing) * 6);
       line-height: calc(var(--spacing) * 6);
     }
   }
+  .lg\:leading-7\.5 {
+    @media (width >= 960px) {
+      --tw-leading: calc(var(--spacing) * 7.5);
+      line-height: calc(var(--spacing) * 7.5);
+    }
+  }
   .lg\:leading-8 {
     @media (width >= 960px) {
       --tw-leading: calc(var(--spacing) * 8);
       line-height: calc(var(--spacing) * 8);
+    }
+  }
+  .lg\:leading-10\.5 {
+    @media (width >= 960px) {
+      --tw-leading: calc(var(--spacing) * 10.5);
+      line-height: calc(var(--spacing) * 10.5);
     }
   }
   .lg\:leading-\[42px\] {
@@ -2371,6 +2423,48 @@
     @media (width >= 960px) {
       --tw-leading: 54px;
       line-height: 54px;
+    }
+  }
+  .lg\:font-normal {
+    @media (width >= 960px) {
+      --tw-font-weight: var(--font-weight-normal);
+      font-weight: var(--font-weight-normal);
+    }
+  }
+  .lg\:tracking-\[-0\.12px\] {
+    @media (width >= 960px) {
+      --tw-tracking: -0.12px;
+      letter-spacing: -0.12px;
+    }
+  }
+  .lg\:tracking-\[-0\.64px\] {
+    @media (width >= 960px) {
+      --tw-tracking: -0.64px;
+      letter-spacing: -0.64px;
+    }
+  }
+  .lg\:tracking-\[-1\.04px\] {
+    @media (width >= 960px) {
+      --tw-tracking: -1.04px;
+      letter-spacing: -1.04px;
+    }
+  }
+  .lg\:tracking-\[-1\.24px\] {
+    @media (width >= 960px) {
+      --tw-tracking: -1.24px;
+      letter-spacing: -1.24px;
+    }
+  }
+  .lg\:tracking-\[-1\.34px\] {
+    @media (width >= 960px) {
+      --tw-tracking: -1.34px;
+      letter-spacing: -1.34px;
+    }
+  }
+  .lg\:tracking-\[-1\.42px\] {
+    @media (width >= 960px) {
+      --tw-tracking: -1.42px;
+      letter-spacing: -1.42px;
     }
   }
   .xl\:absolute {
@@ -2598,19 +2692,9 @@
       border-radius: 54px;
     }
   }
-  .xl\:bg-\[url\(\.\.\/\.\.\/assets\/images\/Mask_group5\.png\)\] {
-    @media (width >= 1200px) {
-      background-image: url(../../assets/images/Mask_group5.png);
-    }
-  }
   .xl\:bg-\[url\(\.\.\/\.\.\/assets\/images\/Mask_group5\.webp\)\] {
     @media (width >= 1200px) {
       background-image: url(../../assets/images/Mask_group5.webp);
-    }
-  }
-  .xl\:bg-\[url\(\/\.\.\/assets\/images\/Mask_group5\.png\)\] {
-    @media (width >= 1200px) {
-      background-image: url(/../assets/images/Mask_group5.png);
     }
   }
   .xl\:p-6 {
@@ -2816,6 +2900,12 @@
       line-height: calc(var(--spacing) * 7.5);
     }
   }
+  .xl\:leading-8 {
+    @media (width >= 1200px) {
+      --tw-leading: calc(var(--spacing) * 8);
+      line-height: calc(var(--spacing) * 8);
+    }
+  }
   .xl\:leading-\[50px\] {
     @media (width >= 1200px) {
       --tw-leading: 50px;
@@ -2828,24 +2918,34 @@
       line-height: 72px;
     }
   }
-  .xl\:lg\:bg-\[url\(\.\.\/\.\.\/assets\/images\/color-gr4\.png\)\] {
+  .xl\:tracking-\[-1\.04px\] {
     @media (width >= 1200px) {
-      @media (width >= 960px) {
-        background-image: url(../../assets/images/color-gr4.png);
-      }
+      --tw-tracking: -1.04px;
+      letter-spacing: -1.04px;
+    }
+  }
+  .xl\:tracking-\[-1\.24px\] {
+    @media (width >= 1200px) {
+      --tw-tracking: -1.24px;
+      letter-spacing: -1.24px;
+    }
+  }
+  .xl\:tracking-\[-1\.34px\] {
+    @media (width >= 1200px) {
+      --tw-tracking: -1.34px;
+      letter-spacing: -1.34px;
+    }
+  }
+  .xl\:tracking-\[-2\.64px\] {
+    @media (width >= 1200px) {
+      --tw-tracking: -2.64px;
+      letter-spacing: -2.64px;
     }
   }
   .xl\:lg\:bg-\[url\(\.\.\/\.\.\/assets\/images\/color-gr4\.webp\)\] {
     @media (width >= 1200px) {
       @media (width >= 960px) {
         background-image: url(../../assets/images/color-gr4.webp);
-      }
-    }
-  }
-  .xl\:lg\:bg-\[url\(\/\.\.\/assets\/images\/color-gr4\.png\)\] {
-    @media (width >= 1200px) {
-      @media (width >= 960px) {
-        background-image: url(/../assets/images/color-gr4.png);
       }
     }
   }
